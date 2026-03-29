@@ -1,0 +1,15 @@
+# 构建产物
+build/
+*.o
+*.a
+*.so
+*.exe
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# 数据文件（如果很大）
+data/*.osm.pbf
+data/*.osm
