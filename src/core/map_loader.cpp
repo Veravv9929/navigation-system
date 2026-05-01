@@ -6,7 +6,7 @@
 
 namespace nav {
     
-        uint64_t MapLoader::next_edge_id_ = 0;
+    uint64_t MapLoader::next_edge_id_ = 0;
 
     bool MapLoader:: loadFromOSM(const std::string& filename, RoadNetwork& network) {
         auto start = std::chrono::steady_clock::now();

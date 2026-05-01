@@ -19,7 +19,8 @@ namespace nav {
 
 	Node* RoadNetwork::addNode(NodeID id, double lat, double lon){
 		//防重复检查，如果id已存在，抛出异常
-		//count返回0或者1.存在返回1不存在返回0
+                //count返回0或者1.存在返回1不存在返回0
+                //其实我要没记错的话count应该是返回数量把哈哈
 		if (nodes_.count(id)){
 			throw std::runtime_error("Duplicate node ID: " + std::to_string(id));
 		}
@@ -53,7 +54,7 @@ namespace nav {
 
 		//双向道路添加反向边
 		if(!oneway){
-			return addEdge(id + 1000000, to_id, from_id, length, speed, true);
+			return addEdge(id + 1000000, to_id, from_id, length, speed, true); //其实重要的是这里创建返程边，此时必须标注oneway为true来终止递归。
 		}
 
 		//返回这个可以调用对象的裸指针

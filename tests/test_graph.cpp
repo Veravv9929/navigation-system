@@ -2,6 +2,7 @@
 #include "core/graph.h"
 #include "core/spatial_index.h"
 #include "core/map_loader.h"
+#include <unordered_set>
 
 using namespace nav;
 
@@ -47,10 +48,36 @@ TEST(SpatialIndexTest, NearestQuery) {
     index.build(network);
 
     auto nearest = index.nearest({39.9, 116.4}, 1);
-
     
     ASSERT_EQ(nearest.size(), 1);
     EXPECT_EQ(nearest[0]->id, 0);
+
+}
+
+TEST(SpatialIndexTest, RangeQuery) {
+    RoadNetwork network;
+    auto n0 = network.addNode(0, 39.9, 116.4);
+    auto n1 = network.addNode(1, 39.901, 116.401);
+    auto n2 = network.addNode(2, 40.0, 117.0);
+
+    GridIndex index;
+    index.build(network);
+
+    auto result = index.rangeQuery(39.89, 116.39, 39.91, 116.41);
+
+    ASSERT_EQ(result.size(), 2);  // ASSERT 确保后续安全
+
+    // 组合验证：ID + 坐标 + 不包含外部节点
+    std::unordered_set<uint64_t> result_ids;
+    for (Node* node : result) {
+        result_ids.insert(node->id);
+        EXPECT_GE(node->coord.lat, 39.89);
+        EXPECT_LE(node->coord.lat, 39.91);
+    }
+
+    EXPECT_TRUE(result_ids.count(0));
+    EXPECT_TRUE(result_ids.count(1));
+    EXPECT_FALSE(result_ids.count(2));  // 节点2在范围外，不应出现
 }
 
 //测试地图加载（需要准备测试数据文件）
