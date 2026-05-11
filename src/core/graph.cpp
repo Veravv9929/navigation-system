@@ -84,4 +84,31 @@ namespace nav {
 		return result;
 	}
 
+
+        //实现添加连续索引相关接口
+        void RoadNetwork::buildIndex() {
+            id_to_index_.clear();
+            index_to_node_.clear();
+            size_t idx = 0;
+            for (const auto& [id, ptr] : nodes_) {
+                id_to_index_[id] = idx;
+                index_to_node_.push_back(ptr.get());
+                idx++;
+            }
+        }
+
+        //去index_to_node_这个vector中去查找节点指针
+        Node* RoadNetwork::nodeByIndex(size_t idx) const {
+            if (idx >= index_to_node_.size()) return nullptr;
+            return index_to_node_[idx];
+        }
+
+        //用NodeID去哈希表id_to_index_中寻找数组下标。
+        size_t RoadNetwork::nodeIndex(NodeID id) const {
+            auto it = id_to_index_.find(id);
+            if (it == id_to_index_.end()) return std:: numeric_limits<size_t>::max();
+            return it->second;
+        }
+
+
 }

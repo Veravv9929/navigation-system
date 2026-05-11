@@ -21,6 +21,7 @@ add_library(nav_core
 	src/core/graph.cpp
 	src/core/map_loader.cpp
 	src/core/spatial_index.cpp
+        src/core/routing.cpp
 )
 
 target_include_directories(nav_core PRIVATE ${TINYXML2_INCLUDE_DIRS})
@@ -30,7 +31,7 @@ target_link_libraries(nav_core ${TINYXML2_LIBRARIES})
 add_executable(nav_cli src/main_cli.cpp)
 target_link_libraries(nav_cli nav_core)
 
-#测试
+#测试(graph)
 enable_testing()
 
 add_executable(test_graph tests/test_graph.cpp)
@@ -40,3 +41,17 @@ target_include_directories(test_graph PRIVATE ${GTEST_INCLUDE_DIRS})
 
 #注册到CTestf
 add_test(NAME GraphTest COMMAND test_graph)
+
+
+#测试(algorithm)
+add_executable(test_routing tests/test_routing.cpp)
+target_link_libraries(test_routing nav_core ${GTEST_LIBRARIES} ${GTEST_MAIN_LIBRARIES} pthread)
+target_include_directories(test_routing PRIVATE ${GTEST_INCLUDE_DIRS})
+add_test(NAME RoutingTest COMMAND test_routing)
+
+
+#路由性能测试
+add_executable(benchmark_routing tests/benchmark_routing.cpp)
+target_link_libraries(benchmark_routing nav_core ${GTEST_LIBRARIES} ${GTEST_MAIN_LIBRARIES} pthread)
+target_include_directories(benchmark_routing PRIVATE ${GTEST_INCLUDE_DIRS})
+add_test(NAME BenchmarkRouting COMMAND benchmark_routing)
