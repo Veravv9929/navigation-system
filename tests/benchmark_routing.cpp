@@ -2,6 +2,7 @@
 #include "core/graph.h"
 #include "core/map_loader.h"
 #include "core/routing.h"
+#include "core/contraction_hierarchies.h"
 #include <random>
 
 using namespace nav;
@@ -112,4 +113,62 @@ TEST(Benchmark, OptimizedDijkstra) {
     std::cout << "Original: " << stats1.compute_time_ms << "ms, "
               << "Optimized: " << stats2.compute_time_ms << "ms, "
               << "Speedup: " << (stats1.compute_time_ms / stats2.compute_time_ms) << "x\n";
+}
+
+TEST(Benchmark, CHvsAStar) {
+    RoadNetwork network;
+    MapLoader loader;
+    ASSERT_TRUE(loader.loadFromOSM("../data/test_data/small.osm", network));
+
+    AStarRouter astar(network);
+    CHRouter ch(network);
+
+    std::cout << "Processing CH...\n";
+    ch.preprocess();
+
+    //收集所有节点
+    std::vector<Node*> nodes;
+    for (const auto& [id, ptr] : network.nodes()) nodes.push_back(ptr.get());
+
+    //随机数生成
+    std::mt19937 rng(42);
+    std::uniform_int_distribution<size_t> dist(0, nodes.size() - 1);
+
+    //统计变量
+    //累计耗时（毫秒）
+    double total_astar = 0, total_ch = 0;
+    //累计探索节点数
+    size_t astar_explored = 0, ch_explored = 0;
+    //两边都找到路径的查询次数
+    int success = 0;
+
+    //主循环：1000次随机查询
+    for (int i = 0; i < 1000; i++)  {
+        auto* start = nodes[dist(rng)];
+        auto* end = nodes[dist(rng)];
+
+        auto p_astar = astar.findShortestPath(start, end);
+        auto p_ch = ch.findPath(start, end);
+
+        if (p_astar.found && p_ch.found) {
+            ASSERT_DOUBLE_EQ(p_astar.total_time, p_ch.total_time); //结果一致
+            //累计统计数据
+            total_astar += astar.lastStats().compute_time_ms; //单词查询耗时
+            total_ch += ch.lastStats().query_time_ms;
+            astar_explored += astar.lastStats().nodes_explored;
+            ch_explored += ch.lastStats().nodes_explored;
+            success++;
+        }
+    }
+
+    std::cout << "\n==================CH Performance Compare Report===========================\n"
+              << "Map: " << network.nodeCount() << "nodes, " << network.edgeCount() << "edges\n" 
+              << "CH preprocess: "  << ch.lastStats().preprocess_time_ms << "ms\n"
+              << "Successful queries: " << success << "/1000\n"
+              << "A* avg time: " << (total_astar/success) << "ms\n"
+              << "CH avg time: " << (total_ch/success) << "ms\n"
+              << "Speedup: " << (total_astar/total_ch) << "x\n"
+              << "A* avg explored: " << (astar_explored/success) << "\n"
+              << "CH avg explored: " << (ch_explored/success) << "\n"
+              << "==============================================\n";
 }

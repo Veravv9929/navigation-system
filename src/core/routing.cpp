@@ -64,7 +64,7 @@ namespace nav{
 
         //从终点回溯到起点
         Node* current = end;
-        while (current) {
+        while (current) { //current为空指针时停止循环
             result.nodes.push_back(current); //从终点往起点收集
             auto it = prev.find(current->id);
             current = (it != prev.end()) ? it->second : nullptr;
@@ -91,7 +91,7 @@ namespace nav{
 
     //启发函数
     double AStarRouter::heuristic(Node* node, Node* end) const {
-        //欧几里得距离（度）转米，除以最大可能速度（120km/h = 333.m/s）
+        //欧几里得距离（度）转米，除以最大可能速度（120km/h = 33.3m/s）
         //这样h(n)是最理想情况下需要的时间，不会高估实际代价
         double dx = node->coord.lat - end->coord.lat;
         double dy = node->coord.lon - end->coord.lon;
@@ -206,6 +206,9 @@ namespace nav{
 
             if (idx == end_idx ) break;
 
+            //第二遍看总览代码理解了，其实优化就优化在for循环里面每个节点遍历所有邻居节点的时候不用hash表而是用vector直接定点查找
+            //这就快很多了，循环外多遍历一次的开销也不算什么了
+            //prev, dist都是vector
             Node* current = network_.nodeByIndex(idx);
             for (auto [neighbor, weight] : network_.getNeighbors(current)) {
                 last_stats_.edges_relaxed++;

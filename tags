@@ -9,665 +9,586 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	//
-$(VERBOSE).SILENT	build/Makefile	/^$(VERBOSE).SILENT:$/;"	t	line:38
-$(VERBOSE)MAKESILENT	build/Makefile	/^$(VERBOSE)MAKESILENT = -s$/;"	m	line:35
-%	build/Makefile	/^% : %,v$/;"	t	line:18
-%	build/Makefile	/^% : RCS\/%$/;"	t	line:21
-%	build/Makefile	/^% : RCS\/%,v$/;"	t	line:24
-%	build/Makefile	/^% : SCCS\/s.%$/;"	t	line:27
-%	build/Makefile	/^% : s.%$/;"	t	line:30
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define ARCHITECTURE_ID /;"	d	line:536	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define ARCHITECTURE_ID /;"	d	line:538	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define ARCHITECTURE_ID /;"	d	line:540	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:520	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:523	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:526	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:529	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:532	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:544	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:547	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:550	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:555	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:558	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:561	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:566	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:569	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:572	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:575	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:578	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:581	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:584	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:587	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:590	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:593	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:596	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:601	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:604	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:607	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:610	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:613	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:616	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:621	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:624	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:627	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:630	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	line:633	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID$/;"	d	line:637	file:
-AStarRouter	include/core/routing.h	/^    class AStarRouter {$/;"	c	line:40	namespace:nav
-AStarRouter	src/core/routing.cpp	/^    AStarRouter::AStarRouter(const RoadNetwork& network) : network_(network) {}$/;"	f	line:90	class:nav::AStarRouter
-CMAKE_AR	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_AR "\/usr\/bin\/ar")$/;"	v	line:25
-CMAKE_BINARY_DIR	build/Makefile	/^CMAKE_BINARY_DIR = \/home\/gloria\/navigation-system\/build$/;"	m	line:63
-CMAKE_CL_SHOWINCLUDES_PREFIX	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^  set(CMAKE_CL_SHOWINCLUDES_PREFIX "${CMAKE_CXX_CL_SHOWINCLUDES_PREFIX}")$/;"	v	line:73
-CMAKE_COMMAND	build/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m	line:51
-CMAKE_COMPILER_IS_GNUCXX	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_COMPILER_IS_GNUCXX 1)$/;"	v	line:31
-CMAKE_CROSSCOMPILING	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_CROSSCOMPILING "FALSE")$/;"	v	line:13
-CMAKE_CROSSCOMPILING	build/cmake_install.cmake	/^  set(CMAKE_CROSSCOMPILING "FALSE")$/;"	v	line:37
-CMAKE_CXX11_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX11_COMPILE_FEATURES "cxx_std_11;cxx_alias_templates;cxx_alignas;cxx_alignof;cxx_att/;"	v	line:11
-CMAKE_CXX14_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX14_COMPILE_FEATURES "cxx_std_14;cxx_aggregate_default_initializers;cxx_attribute_de/;"	v	line:12
-CMAKE_CXX17_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX17_COMPILE_FEATURES "cxx_std_17")$/;"	v	line:13
-CMAKE_CXX20_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX20_COMPILE_FEATURES "cxx_std_20")$/;"	v	line:14
-CMAKE_CXX23_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX23_COMPILE_FEATURES "cxx_std_23")$/;"	v	line:15
-CMAKE_CXX98_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX98_COMPILE_FEATURES "cxx_std_98;cxx_template_template_parameters")$/;"	v	line:10
-CMAKE_CXX_ABI_COMPILED	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_ABI_COMPILED TRUE)$/;"	v	line:34
-CMAKE_CXX_BYTE_ORDER	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_BYTE_ORDER "LITTLE_ENDIAN")$/;"	v	line:56
-CMAKE_CXX_CL_SHOWINCLUDES_PREFIX	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_CL_SHOWINCLUDES_PREFIX "")$/;"	v	line:71
-CMAKE_CXX_COMPILER	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER "\/usr\/bin\/c++")$/;"	v	line:1
-CMAKE_CXX_COMPILER_ABI	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ABI "ELF")$/;"	v	line:55
-CMAKE_CXX_COMPILER_AR	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_AR "\/usr\/bin\/gcc-ar-11")$/;"	v	line:26
-CMAKE_CXX_COMPILER_ARG1	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ARG1 "")$/;"	v	line:2
-CMAKE_CXX_COMPILER_ENV_VAR	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ENV_VAR "CXX")$/;"	v	line:36
-CMAKE_CXX_COMPILER_FRONTEND_VARIANT	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_FRONTEND_VARIANT "")$/;"	v	line:19
-CMAKE_CXX_COMPILER_ID	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ID "GNU")$/;"	v	line:3
-CMAKE_CXX_COMPILER_ID_RUN	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ID_RUN 1)$/;"	v	line:38
-CMAKE_CXX_COMPILER_LOADED	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_LOADED 1)$/;"	v	line:32
-CMAKE_CXX_COMPILER_RANLIB	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_RANLIB "\/usr\/bin\/gcc-ranlib-11")$/;"	v	line:28
-CMAKE_CXX_COMPILER_VERSION	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_VERSION "11.4.0")$/;"	v	line:4
-CMAKE_CXX_COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")$/;"	v	line:5
-CMAKE_CXX_COMPILER_WORKS	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_WORKS TRUE)$/;"	v	line:33
-CMAKE_CXX_COMPILER_WRAPPER	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_WRAPPER "")$/;"	v	line:6
-CMAKE_CXX_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILE_FEATURES "cxx_std_98;cxx_template_template_parameters;cxx_std_11;cxx_alias/;"	v	line:9
-CMAKE_CXX_EXTENSIONS_COMPUTED_DEFAULT	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_EXTENSIONS_COMPUTED_DEFAULT "ON")$/;"	v	line:8
-CMAKE_CXX_FLAGS	CMakeLists.txt	/^set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2 -Wall -Wextra")$/;"	v	line:6
-CMAKE_CXX_IGNORE_EXTENSIONS	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IGNORE_EXTENSIONS inl;h;hpp;HPP;H;o;O;obj;OBJ;def;DEF;rc;RC)$/;"	v	line:40
-CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "\/usr\/include\/c++\/11;\/usr\/include\/x86_64-linux/;"	v	line:80
-CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "\/usr\/lib\/gcc\/x86_64-linux-gnu\/11;\/usr\/lib\/x86_6/;"	v	line:82
-CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")$/;"	v	line:83
-CMAKE_CXX_IMPLICIT_LINK_LIBRARIES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;m;gcc_s;gcc;c;gcc_s;gcc")$/;"	v	line:81
-CMAKE_CXX_INCLUDE_REGEX_COMPLAIN	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_CXX_INCLUDE_REGEX_COMPLAIN ${CMAKE_C_INCLUDE_REGEX_COMPLAIN})$/;"	v	line:16
-CMAKE_CXX_INCLUDE_REGEX_SCAN	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_CXX_INCLUDE_REGEX_SCAN ${CMAKE_C_INCLUDE_REGEX_SCAN})$/;"	v	line:15
-CMAKE_CXX_LIBRARY_ARCHITECTURE	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_LIBRARY_ARCHITECTURE "x86_64-linux-gnu")$/;"	v	line:57
-CMAKE_CXX_LINKER_PREFERENCE	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_LINKER_PREFERENCE 30)$/;"	v	line:50
-CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES 1)$/;"	v	line:51
-CMAKE_CXX_PLATFORM_ID	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_PLATFORM_ID "Linux")$/;"	v	line:17
-CMAKE_CXX_SIMULATE_ID	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SIMULATE_ID "")$/;"	v	line:18
-CMAKE_CXX_SIMULATE_VERSION	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SIMULATE_VERSION "")$/;"	v	line:20
-CMAKE_CXX_SIZEOF_DATA_PTR	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SIZEOF_DATA_PTR "8")$/;"	v	line:54
-CMAKE_CXX_SOURCE_FILE_EXTENSIONS	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SOURCE_FILE_EXTENSIONS C;M;c++;cc;cpp;cxx;m;mm;mpp;CPP;ixx;cppm)$/;"	v	line:39
-CMAKE_CXX_STANDARD	CMakeLists.txt	/^set(CMAKE_CXX_STANDARD 17)$/;"	v	line:4
-CMAKE_CXX_STANDARD_COMPUTED_DEFAULT	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "17")$/;"	v	line:7
-CMAKE_CXX_STANDARD_REQUIRED	CMakeLists.txt	/^set(CMAKE_CXX_STANDARD_REQUIRED ON)$/;"	v	line:5
-CMAKE_C_INCLUDE_REGEX_COMPLAIN	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_C_INCLUDE_REGEX_COMPLAIN "^$")$/;"	v	line:14
-CMAKE_C_INCLUDE_REGEX_SCAN	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_C_INCLUDE_REGEX_SCAN "^.*$")$/;"	v	line:13
-CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/benchmark_routing.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v	line:10
-CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/nav_cli.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v	line:10
-CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/nav_core.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v	line:10
-CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/test_graph.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v	line:10
-CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/test_routing.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v	line:10
-CMAKE_DEPENDS_GENERATOR	build/CMakeFiles/Makefile.cmake	/^set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")$/;"	v	line:5
-CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/benchmark_routing.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v	line:3
-CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/nav_cli.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v	line:3
-CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/nav_core.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v	line:3
-CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/test_graph.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v	line:3
-CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/test_routing.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v	line:3
-CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/benchmark_routing.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v	line:6
-CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/nav_cli.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v	line:6
-CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/nav_core.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v	line:6
-CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/test_graph.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v	line:6
-CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/test_routing.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v	line:6
-CMAKE_DEPEND_INFO_FILES	build/CMakeFiles/Makefile.cmake	/^set(CMAKE_DEPEND_INFO_FILES$/;"	v	line:56
-CMAKE_FORCE_UNIX_PATHS	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_FORCE_UNIX_PATHS 1)$/;"	v	line:9
-CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/benchmark_routing.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v	line:20
-CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/nav_cli.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v	line:20
-CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/nav_core.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v	line:22
-CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test_graph.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v	line:20
-CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test_routing.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v	line:20
-CMAKE_HOST_SYSTEM	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM "Linux-5.15.167.4-microsoft-standard-WSL2")$/;"	v	line:1
-CMAKE_HOST_SYSTEM_NAME	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_NAME "Linux")$/;"	v	line:2
-CMAKE_HOST_SYSTEM_PROCESSOR	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")$/;"	v	line:4
-CMAKE_HOST_SYSTEM_VERSION	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_VERSION "5.15.167.4-microsoft-standard-WSL2")$/;"	v	line:3
-CMAKE_INSTALL_COMPONENT	build/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")$/;"	v	line:24
-CMAKE_INSTALL_COMPONENT	build/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT)$/;"	v	line:26
-CMAKE_INSTALL_CONFIG_NAME	build/cmake_install.cmake	/^    set(CMAKE_INSTALL_CONFIG_NAME "")$/;"	v	line:15
-CMAKE_INSTALL_MANIFEST	build/cmake_install.cmake	/^  set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")$/;"	v	line:48
-CMAKE_INSTALL_MANIFEST	build/cmake_install.cmake	/^  set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")$/;"	v	line:46
-CMAKE_INSTALL_PREFIX	build/cmake_install.cmake	/^  set(CMAKE_INSTALL_PREFIX "\/usr\/local")$/;"	v	line:5
-CMAKE_INSTALL_SO_NO_EXE	build/cmake_install.cmake	/^  set(CMAKE_INSTALL_SO_NO_EXE "1")$/;"	v	line:32
-CMAKE_INTERNAL_PLATFORM_ABI	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^  set(CMAKE_INTERNAL_PLATFORM_ABI "${CMAKE_CXX_COMPILER_ABI}")$/;"	v	line:64
-CMAKE_LIBRARY_ARCHITECTURE	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^  set(CMAKE_LIBRARY_ARCHITECTURE "x86_64-linux-gnu")$/;"	v	line:68
-CMAKE_LINKER	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_LINKER "\/usr\/bin\/ld")$/;"	v	line:29
-CMAKE_MAKEFILE_DEPENDS	build/CMakeFiles/Makefile.cmake	/^set(CMAKE_MAKEFILE_DEPENDS$/;"	v	line:8
-CMAKE_MAKEFILE_OUTPUTS	build/CMakeFiles/Makefile.cmake	/^set(CMAKE_MAKEFILE_OUTPUTS$/;"	v	line:45
-CMAKE_MAKEFILE_PRODUCTS	build/CMakeFiles/Makefile.cmake	/^set(CMAKE_MAKEFILE_PRODUCTS$/;"	v	line:51
-CMAKE_MT	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_MT "")$/;"	v	line:30
-CMAKE_OBJDUMP	build/cmake_install.cmake	/^  set(CMAKE_OBJDUMP "\/usr\/bin\/objdump")$/;"	v	line:42
-CMAKE_RANLIB	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_RANLIB "\/usr\/bin\/ranlib")$/;"	v	line:27
-CMAKE_RELATIVE_PATH_TOP_BINARY	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_RELATIVE_PATH_TOP_BINARY "\/home\/gloria\/navigation-system\/build")$/;"	v	line:6
-CMAKE_RELATIVE_PATH_TOP_SOURCE	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_RELATIVE_PATH_TOP_SOURCE "\/home\/gloria\/navigation-system")$/;"	v	line:5
-CMAKE_SIZEOF_VOID_P	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^  set(CMAKE_SIZEOF_VOID_P "${CMAKE_CXX_SIZEOF_DATA_PTR}")$/;"	v	line:60
-CMAKE_SOURCE_DIR	build/Makefile	/^CMAKE_SOURCE_DIR = \/home\/gloria\/navigation-system$/;"	m	line:60
-CMAKE_SYSTEM	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_SYSTEM "Linux-5.15.167.4-microsoft-standard-WSL2")$/;"	v	line:8
-CMAKE_SYSTEM_LOADED	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_LOADED 1)$/;"	v	line:15
-CMAKE_SYSTEM_NAME	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_NAME "Linux")$/;"	v	line:9
-CMAKE_SYSTEM_PROCESSOR	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_PROCESSOR "x86_64")$/;"	v	line:11
-CMAKE_SYSTEM_VERSION	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_VERSION "5.15.167.4-microsoft-standard-WSL2")$/;"	v	line:10
-CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/benchmark_routing.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v	line:15
-CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/nav_cli.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v	line:15
-CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/nav_core.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v	line:18
-CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test_graph.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v	line:15
-CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test_routing.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v	line:15
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:109	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:117	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:123	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:129	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:138	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:147	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:161	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:168	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:175	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:182	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:19	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:190	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:197	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:204	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:212	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:220	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:225	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:232	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:240	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:25	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:256	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:265	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:268	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:283	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:298	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:305	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:319	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:333	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:351	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:360	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:378	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:381	file:
-COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	line:71	file:
-COMPILER_VERSION	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION /;"	d	line:242	file:
-COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_INTERNAL /;"	d	line:249	file:
-COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_INTERNAL /;"	d	line:251	file:
-COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_INTERNAL /;"	d	line:365	file:
-COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_INTERNAL /;"	d	line:370	file:
-COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_INTERNAL /;"	d	line:302	file:
-COMPILER_VERSION_INTERNAL_STR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_INTERNAL_STR /;"	d	line:236	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_MAJOR /;"	d	line:271	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_MAJOR /;"	d	line:276	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_MAJOR /;"	d	line:299	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_MAJOR /;"	d	line:244	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MAJOR /;"	d	line:150	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MAJOR /;"	d	line:155	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MAJOR /;"	d	line:321	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MAJOR /;"	d	line:323	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MAJOR /;"	d	line:35	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MAJOR /;"	d	line:362	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MAJOR /;"	d	line:367	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MAJOR /;"	d	line:43	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	line:110	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	line:118	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	line:125	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	line:131	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	line:140	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	line:163	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	line:170	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	line:177	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	line:183	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	line:192	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	line:199	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	line:205	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	line:21	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	line:213	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	line:221	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	line:227	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	line:233	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	line:259	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	line:287	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	line:309	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	line:335	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	line:354	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	line:83	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	line:87	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_MINOR /;"	d	line:272	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_MINOR /;"	d	line:277	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_MINOR /;"	d	line:300	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_MINOR /;"	d	line:245	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MINOR /;"	d	line:151	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MINOR /;"	d	line:156	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MINOR /;"	d	line:326	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MINOR /;"	d	line:36	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MINOR /;"	d	line:363	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MINOR /;"	d	line:368	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MINOR /;"	d	line:44	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	line:111	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	line:119	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	line:126	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	line:132	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	line:141	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	line:164	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	line:171	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	line:178	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	line:184	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	line:193	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	line:200	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	line:206	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	line:214	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	line:22	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	line:222	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	line:228	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	line:234	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	line:260	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	line:288	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	line:310	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	line:336	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	line:355	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	line:84	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	line:88	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_PATCH /;"	d	line:273	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_PATCH /;"	d	line:278	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_PATCH /;"	d	line:301	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_PATCH /;"	d	line:246	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_PATCH /;"	d	line:340	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_PATCH /;"	d	line:343	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_PATCH /;"	d	line:38	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_PATCH /;"	d	line:40	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_PATCH /;"	d	line:113	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_PATCH /;"	d	line:134	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_PATCH /;"	d	line:143	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_PATCH /;"	d	line:152	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_PATCH /;"	d	line:157	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_PATCH /;"	d	line:208	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_PATCH /;"	d	line:216	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_PATCH /;"	d	line:329	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_PATCH /;"	d	line:364	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_PATCH /;"	d	line:369	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_PATCH /;"	d	line:47	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_PATCH /;"	d	line:120	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_PATCH /;"	d	line:165	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_PATCH /;"	d	line:172	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_PATCH /;"	d	line:179	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_PATCH /;"	d	line:185	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_PATCH /;"	d	line:194	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_PATCH /;"	d	line:201	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_PATCH /;"	d	line:229	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_PATCH /;"	d	line:235	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_PATCH /;"	d	line:261	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_PATCH /;"	d	line:289	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_PATCH /;"	d	line:311	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_PATCH /;"	d	line:356	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_PATCH /;"	d	line:85	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_PATCH /;"	d	line:89	file:
-COMPILER_VERSION_TWEAK	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_TWEAK /;"	d	line:347	file:
-COMPILER_VERSION_TWEAK	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_TWEAK /;"	d	line:51	file:
-COMPILER_VERSION_TWEAK	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_TWEAK /;"	d	line:186	file:
-COMPILER_VERSION_TWEAK	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_TWEAK /;"	d	line:295	file:
-CXX_STD	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#      define CXX_STD /;"	d	line:725	file:
-CXX_STD	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#      define CXX_STD /;"	d	line:727	file:
-CXX_STD	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#    define CXX_STD /;"	d	line:730	file:
-CXX_STD	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define CXX_STD /;"	d	line:733	file:
-CXX_STD	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define CXX_STD /;"	d	line:735	file:
-Coordinate	include/core/graph.h	/^	struct Coordinate {$/;"	s	line:16	namespace:nav
-DEC	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define DEC(/;"	d	line:641	file:
-DijkstraRouter	include/core/routing.h	/^    class DijkstraRouter {$/;"	c	line:19	namespace:nav
-DijkstraRouter	src/core/routing.cpp	/^    DijkstraRouter::DijkstraRouter(const RoadNetwork& network) : network_(network) {}$/;"	f	line:10	class:nav::DijkstraRouter
-EQUALS	build/Makefile	/^EQUALS = =$/;"	m	line:57
-Edge	include/core/graph.h	/^	struct Edge{$/;"	s	line:34	namespace:nav
-EdgeID	include/core/graph.h	/^	using EdgeID = uint64_t;$/;"	t	line:13	namespace:nav	typeref:typename:uint64_t
-GridIndex	include/core/spatial_index.h	/^	class GridIndex {$/;"	c	line:10	namespace:nav
-GridIndex	src/core/spatial_index.cpp	/^	GridIndex::GridIndex(double cell_size) : cell_size_(cell_size){}$/;"	f	line:8	class:nav::GridIndex
-HEX	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define HEX(/;"	d	line:652	file:
-MapLoader	include/core/map_loader.h	/^class MapLoader{$/;"	c	line:8	namespace:nav
-NavigationSystem	CMakeLists.txt	/^project(NavigationSystem VERSION 1.0.0 LANGUAGES CXX)$/;"	p	line:2
-Node	include/core/graph.h	/^		Node(NodeID i,double la, double lo) : id(i), coord{la, lo} {}$/;"	f	line:30	struct:nav::Node
-Node	include/core/graph.h	/^	struct Node{$/;"	s	line:24	namespace:nav
-NodeID	include/core/graph.h	/^	using NodeID = uint64_t;$/;"	t	line:12	namespace:nav	typeref:typename:uint64_t
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID /;"	d	line:482	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID /;"	d	line:485	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID /;"	d	line:488	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID /;"	d	line:491	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID /;"	d	line:494	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID /;"	d	line:502	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID /;"	d	line:505	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID$/;"	d	line:497	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	line:406	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	line:409	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	line:412	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	line:415	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	line:418	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	line:421	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	line:424	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	line:427	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	line:430	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	line:433	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	line:436	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	line:439	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	line:442	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	line:445	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	line:448	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	line:451	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	line:454	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	line:457	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	line:460	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	line:463	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	line:466	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	line:469	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	line:472	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	line:475	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	line:478	file:
-PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID$/;"	d	line:509	file:
-Path	include/core/routing.h	/^    struct Path {$/;"	s	line:9	namespace:nav
-QueueItem	src/core/routing.cpp	/^        using QueueItem = std::pair<double, Node*>;$/;"	t	line:22	function:nav::DijkstraRouter::findShortestPath	typeref:typename:std::pair<double,Node * >	file:
-QueueItem	src/core/routing.cpp	/^        using QueueItem = std::tuple<double, double, Node*>; \/\/<f, g, node>$/;"	t	line:111	function:nav::AStarRouter::findShortestPath	typeref:typename:std::tuple<double,double,Node * >	file:
-QueueItem	src/core/spatial_index.cpp	/^		using QueueItem = std::pair<double, Node*>;$/;"	t	line:23	function:nav::GridIndex::nearest	typeref:typename:std::pair<double,Node * >	file:
-RM	build/Makefile	/^RM = \/usr\/bin\/cmake -E rm -f$/;"	m	line:54
-RoadNetwork	include/core/graph.h	/^	class RoadNetwork{$/;"	c	line:49	namespace:nav
-RoutingTest	tests/test_routing.cpp	/^class RoutingTest : public ::testing::Test {$/;"	c	line:8	file:
-RoutingTest::SetUp	tests/test_routing.cpp	/^        void SetUp() override {$/;"	f	line:10	class:RoutingTest	typeref:typename:void	file:
-RoutingTest::network	tests/test_routing.cpp	/^        RoadNetwork network;$/;"	m	line:43	class:RoutingTest	typeref:typename:RoadNetwork	file:
-SHELL	build/Makefile	/^SHELL = \/bin\/sh$/;"	m	line:48
-SIMULATE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_ID /;"	d	line:27	file:
-SIMULATE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_ID /;"	d	line:285	file:
-SIMULATE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_ID /;"	d	line:30	file:
-SIMULATE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_ID /;"	d	line:307	file:
-SIMULATE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_ID /;"	d	line:73	file:
-SIMULATE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_ID /;"	d	line:76	file:
-SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MAJOR /;"	d	line:292	file:
-SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MAJOR /;"	d	line:314	file:
-SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MAJOR /;"	d	line:55	file:
-SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MAJOR /;"	d	line:59	file:
-SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MAJOR /;"	d	line:61	file:
-SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_MAJOR /;"	d	line:93	file:
-SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_MAJOR /;"	d	line:97	file:
-SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_MAJOR /;"	d	line:99	file:
-SIMULATE_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MINOR /;"	d	line:293	file:
-SIMULATE_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MINOR /;"	d	line:315	file:
-SIMULATE_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MINOR /;"	d	line:56	file:
-SIMULATE_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MINOR /;"	d	line:64	file:
-SIMULATE_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_MINOR /;"	d	line:102	file:
-SIMULATE_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_MINOR /;"	d	line:94	file:
-SIMULATE_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_PATCH /;"	d	line:67	file:
-SIMULATE_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_PATCH /;"	d	line:105	file:
-STRINGIFY	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define STRINGIFY(/;"	d	line:402	file:
-STRINGIFY_HELPER	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define STRINGIFY_HELPER(/;"	d	line:401	file:
-SetUp	tests/test_routing.cpp	/^        void SetUp() override {$/;"	f	line:10	class:RoutingTest	typeref:typename:void	file:
-Stats	include/core/map_loader.h	/^    struct Stats {$/;"	s	line:13	class:nav::MapLoader
-Stats	include/core/routing.h	/^            struct Stats {$/;"	s	line:28	class:nav::DijkstraRouter
-TEST	tests/benchmark_routing.cpp	/^TEST(Benchmark, RealMapRouting) {$/;"	f	line:9
-TEST	tests/test_graph.cpp	/^TEST(GraphTest, BasicConstruction) {$/;"	f	line:10
-TEST	tests/test_graph.cpp	/^TEST(MapLoadeTest, LoadSmallOSM) {$/;"	f	line:84
-TEST	tests/test_graph.cpp	/^TEST(SpatialIndexTest, NearestQuery) {$/;"	f	line:39
-TEST	tests/test_graph.cpp	/^TEST(SpatialIndexTest, RangeQuery) {$/;"	f	line:57
-TEST_F	tests/test_routing.cpp	/^TEST_F(RoutingTest, AStarFasterThanDijkstra) {$/;"	f	line:72
-TEST_F	tests/test_routing.cpp	/^TEST_F(RoutingTest, AStarSameAsDijkstra) {$/;"	f	line:58
-TEST_F	tests/test_routing.cpp	/^TEST_F(RoutingTest, DijkstraBasicPath) {$/;"	f	line:47
-TEST_F	tests/test_routing.cpp	/^TEST_F(RoutingTest, SameStartEnd) {$/;"	f	line:103
-TEST_F	tests/test_routing.cpp	/^TEST_F(RoutingTest, UnreachableNode) {$/;"	f	line:91
-__anon62b43d6d0102	src/core/routing.cpp	/^        auto cmp = [](const QueueItem& a, const QueueItem& b) {$/;"	f	line:113	function:nav::AStarRouter::findShortestPath	file:
-__has_include	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define __has_include(/;"	d	line:11	file:
-addEdge	src/core/graph.cpp	/^	Edge* RoadNetwork::addEdge(EdgeID id, NodeID from_id, NodeID to_id, double length, double speed/;"	f	line:33	class:nav::RoadNetwork	typeref:typename:Edge *
-addNode	src/core/graph.cpp	/^	Node* RoadNetwork::addNode(NodeID id, double lat, double lon){$/;"	f	line:20	class:nav::RoadNetwork	typeref:typename:Node *
-all	build/Makefile	/^all: cmake_check_build_system$/;"	t	line:99
-benchmark_routing	CMakeLists.txt	/^add_executable(benchmark_routing tests\/benchmark_routing.cpp)$/;"	t	line:54
-benchmark_routing	build/Makefile	/^benchmark_routing: cmake_check_build_system$/;"	t	line:185
-benchmark_routing/fast	build/Makefile	/^benchmark_routing\/fast:$/;"	t	line:190
-build	src/core/spatial_index.cpp	/^	void GridIndex::build(const RoadNetwork& network) {$/;"	f	line:10	class:nav::GridIndex	typeref:typename:void
-buildIndex	src/core/graph.cpp	/^        void RoadNetwork::buildIndex() {$/;"	f	line:89	class:nav::RoadNetwork	typeref:typename:void
-cell_size_	include/core/spatial_index.h	/^		double cell_size_;$/;"	m	line:30	class:nav::GridIndex	typeref:typename:double
-clean	build/Makefile	/^clean:$/;"	t	line:106
-clean/fast	build/Makefile	/^clean\/fast: clean$/;"	t	line:111
-cmake_check_build_system	build/Makefile	/^cmake_check_build_system:$/;"	t	line:434
-cmake_force	build/Makefile	/^cmake_force:$/;"	t	line:41
-compute_time_ms	include/core/routing.h	/^                double compute_time_ms = 0; \/\/计算耗时$/;"	m	line:31	struct:nav::DijkstraRouter::Stats	typeref:typename:double
-coord	include/core/graph.h	/^		Coordinate coord;$/;"	m	line:26	struct:nav::Node	typeref:typename:Coordinate
-default_target	build/Makefile	/^default_target: all$/;"	t	line:5
-depend	build/Makefile	/^depend:$/;"	t	line:125
-distanceTo	src/core/graph.cpp	/^	double Coordinate::distanceTo(const Coordinate& other ) const {$/;"	f	line:7	class:nav::Coordinate	typeref:typename:double
-edgeCount	include/core/graph.h	/^		size_t edgeCount() const { return edges_.size(); }$/;"	f	line:73	class:nav::RoadNetwork	typeref:typename:size_t
-edges_	include/core/graph.h	/^		std::unordered_map<EdgeID, std::unique_ptr<Edge>> edges_;$/;"	m	line:87	class:nav::RoadNetwork	typeref:typename:std::unordered_map<EdgeID,std::unique_ptr<Edge>>
-edges_created	include/core/map_loader.h	/^        size_t edges_created = 0;$/;"	m	line:16	struct:nav::MapLoader::Stats	typeref:typename:size_t
-edges_relaxed	include/core/routing.h	/^                size_t edges_relaxed = 0; \/\/松弛了多少边$/;"	m	line:30	struct:nav::DijkstraRouter::Stats	typeref:typename:size_t
-edit_cache	build/Makefile	/^edit_cache:$/;"	t	line:79
-edit_cache/fast	build/Makefile	/^edit_cache\/fast: edit_cache$/;"	t	line:85
-findShortestPath	src/core/routing.cpp	/^    Path AStarRouter::findShortestPath(Node* start, Node* end) {$/;"	f	line:103	class:nav::AStarRouter	typeref:typename:Path
-findShortestPath	src/core/routing.cpp	/^    Path DijkstraRouter::findShortestPath(Node* start, Node* end) {$/;"	f	line:12	class:nav::DijkstraRouter	typeref:typename:Path
-findShortestPathFast	src/core/routing.cpp	/^    Path DijkstraRouter::findShortestPathFast(Node* start, Node* end) {$/;"	f	line:174	class:nav::DijkstraRouter	typeref:typename:Path
-found	include/core/routing.h	/^        bool found = false;               \/\/是否找到路径$/;"	m	line:13	struct:nav::Path	typeref:typename:bool
-from	include/core/graph.h	/^		Node* from;\/\/起点$/;"	m	line:36	struct:nav::Edge	typeref:typename:Node *
-getCell	src/core/spatial_index.cpp	/^	std::pair<int, int> GridIndex::getCell(double lat, double lon) const {$/;"	f	line:48	class:nav::GridIndex	typeref:typename:std::pair<int,int>
-getNeighbors	src/core/graph.cpp	/^	std::vector<std::pair<Node*, double>> RoadNetwork::getNeighbors(Node* node) const{$/;"	f	line:75	class:nav::RoadNetwork	typeref:typename:std::vector<std::pair<Node *,double>>
-getNode	src/core/graph.cpp	/^	Node* RoadNetwork::getNode(NodeID id) const{$/;"	f	line:64	class:nav::RoadNetwork	typeref:typename:Node *
-getSpeedLimit	src/core/map_loader.cpp	/^    double MapLoader::getSpeedLimit(const std::string& type) const {$/;"	f	line:102	class:nav::MapLoader	typeref:typename:double
-grid_	include/core/spatial_index.h	/^		std::map<std::pair<int, int>, std::vector<Node*>> grid_;$/;"	m	line:31	class:nav::GridIndex	typeref:typename:std::map<std::pair<int,int>,std::vector<Node * >>
-help	build/Makefile	/^help:$/;"	t	line:387
-heuristic	src/core/routing.cpp	/^    double AStarRouter::heuristic(Node* node, Node* end) const {$/;"	f	line:93	class:nav::AStarRouter	typeref:typename:double
-hopCount	include/core/routing.h	/^        size_t hopCount() const { return nodes.empty() ? 0 : nodes.size() - 1;};$/;"	f	line:15	struct:nav::Path	typeref:typename:size_t
-id	include/core/graph.h	/^		EdgeID id;$/;"	m	line:35	struct:nav::Edge	typeref:typename:EdgeID
-id	include/core/graph.h	/^		NodeID id;$/;"	m	line:25	struct:nav::Node	typeref:typename:NodeID
-id_to_index_	include/core/graph.h	/^                std::unordered_map<NodeID, size_t> id_to_index_;$/;"	m	line:90	class:nav::RoadNetwork	typeref:typename:std::unordered_map<NodeID,size_t>
-incoming	include/core/graph.h	/^		std::vector<Edge*> incoming;\/\/入边$/;"	m	line:28	struct:nav::Node	typeref:typename:std::vector<Edge * >
-indexSize	include/core/graph.h	/^                size_t indexSize() const { return id_to_index_.size(); }$/;"	f	line:83	class:nav::RoadNetwork	typeref:typename:size_t
-index_to_node_	include/core/graph.h	/^                std::vector<Node*> index_to_node_;$/;"	m	line:92	class:nav::RoadNetwork	typeref:typename:std::vector<Node * >
-info_arch	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v	line:718	typeref:typename:char const *
-info_compiler	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v	line:388	typeref:typename:char const *
-info_cray	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v	line:398	typeref:typename:char const *
-info_language_extensions_default	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^const char* info_language_extensions_default = "INFO" ":" "extensions_default["$/;"	v	line:754	typeref:typename:const char *
-info_language_standard_default	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^const char* info_language_standard_default = "INFO" ":" "standard_default["$/;"	v	line:738	typeref:typename:const char *
-info_platform	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v	line:717	typeref:typename:char const *
-info_simulate	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v	line:390	typeref:typename:char const *
-info_simulate_version	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_simulate_version[] = {$/;"	v	line:697	typeref:typename:char const[]
-info_version	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v	line:668	typeref:typename:char const[]
-info_version	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";$/;"	v	line:664	typeref:typename:char const *
-info_version_internal	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version_internal[] = {$/;"	v	line:686	typeref:typename:char const[]
-info_version_internal	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_version_internal = "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INT/;"	v	line:692	typeref:typename:char const *
-isDrivableRoad	src/core/map_loader.cpp	/^    bool MapLoader::isDrivableRoad(const std::string& type) const {$/;"	f	line:95	class:nav::MapLoader	typeref:typename:bool
-lastStats	include/core/routing.h	/^            const DijkstraRouter::Stats& lastStats() const { return last_stats_; }$/;"	f	line:45	class:nav::AStarRouter	typeref:typename:const DijkstraRouter::Stats &
-lastStats	include/core/routing.h	/^            const Stats& lastStats() const {return last_stats_; }$/;"	f	line:33	class:nav::DijkstraRouter	typeref:typename:const Stats &
-last_stats_	include/core/routing.h	/^            DijkstraRouter::Stats last_stats_;$/;"	m	line:49	class:nav::AStarRouter	typeref:typename:DijkstraRouter::Stats
-last_stats_	include/core/routing.h	/^            Stats last_stats_;$/;"	m	line:36	class:nav::DijkstraRouter	typeref:typename:Stats
-lat	include/core/graph.h	/^		double lat;\/\/纬度$/;"	m	line:17	struct:nav::Coordinate	typeref:typename:double
-length	include/core/graph.h	/^		double length;\/\/长度(m)$/;"	m	line:38	struct:nav::Edge	typeref:typename:double
-loadFromOSM	src/core/map_loader.cpp	/^    bool MapLoader:: loadFromOSM(const std::string& filename, RoadNetwork& network) {$/;"	f	line:11	class:nav::MapLoader	typeref:typename:bool
-load_time_ms	include/core/map_loader.h	/^        double load_time_ms = 0;$/;"	m	line:17	struct:nav::MapLoader::Stats	typeref:typename:double
-lon	include/core/graph.h	/^		double lon;\/\/经度$/;"	m	line:18	struct:nav::Coordinate	typeref:typename:double
-main	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f	line:767	typeref:typename:int
-main	src/main_cli.cpp	/^int main(int argc, char* argv[]) {$/;"	f	line:13	typeref:typename:int
-main	tests/test_graph.cpp	/^int main(int argc, char **argv) {$/;"	f	line:98	typeref:typename:int
-nav	include/core/graph.h	/^namespace nav {$/;"	n	line:6
-nav	include/core/map_loader.h	/^namespace nav{$/;"	n	line:6
-nav	include/core/routing.h	/^namespace nav {$/;"	n	line:6
-nav	include/core/spatial_index.h	/^namespace nav {$/;"	n	line:6
-nav	src/core/graph.cpp	/^namespace nav {$/;"	n	line:5	file:
-nav	src/core/map_loader.cpp	/^namespace nav {$/;"	n	line:7	file:
-nav	src/core/routing.cpp	/^namespace nav{$/;"	n	line:8	file:
-nav	src/core/spatial_index.cpp	/^namespace nav {$/;"	n	line:6	file:
-nav::AStarRouter	include/core/routing.h	/^    class AStarRouter {$/;"	c	line:40	namespace:nav
-nav::AStarRouter::AStarRouter	src/core/routing.cpp	/^    AStarRouter::AStarRouter(const RoadNetwork& network) : network_(network) {}$/;"	f	line:90	class:nav::AStarRouter
-nav::AStarRouter::findShortestPath	src/core/routing.cpp	/^    Path AStarRouter::findShortestPath(Node* start, Node* end) {$/;"	f	line:103	class:nav::AStarRouter	typeref:typename:Path
-nav::AStarRouter::heuristic	src/core/routing.cpp	/^    double AStarRouter::heuristic(Node* node, Node* end) const {$/;"	f	line:93	class:nav::AStarRouter	typeref:typename:double
-nav::AStarRouter::lastStats	include/core/routing.h	/^            const DijkstraRouter::Stats& lastStats() const { return last_stats_; }$/;"	f	line:45	class:nav::AStarRouter	typeref:typename:const DijkstraRouter::Stats &
-nav::AStarRouter::last_stats_	include/core/routing.h	/^            DijkstraRouter::Stats last_stats_;$/;"	m	line:49	class:nav::AStarRouter	typeref:typename:DijkstraRouter::Stats
-nav::AStarRouter::network_	include/core/routing.h	/^            const RoadNetwork& network_;$/;"	m	line:48	class:nav::AStarRouter	typeref:typename:const RoadNetwork &
-nav::Coordinate	include/core/graph.h	/^	struct Coordinate {$/;"	s	line:16	namespace:nav
-nav::Coordinate::distanceTo	src/core/graph.cpp	/^	double Coordinate::distanceTo(const Coordinate& other ) const {$/;"	f	line:7	class:nav::Coordinate	typeref:typename:double
-nav::Coordinate::lat	include/core/graph.h	/^		double lat;\/\/纬度$/;"	m	line:17	struct:nav::Coordinate	typeref:typename:double
-nav::Coordinate::lon	include/core/graph.h	/^		double lon;\/\/经度$/;"	m	line:18	struct:nav::Coordinate	typeref:typename:double
-nav::DijkstraRouter	include/core/routing.h	/^    class DijkstraRouter {$/;"	c	line:19	namespace:nav
-nav::DijkstraRouter::DijkstraRouter	src/core/routing.cpp	/^    DijkstraRouter::DijkstraRouter(const RoadNetwork& network) : network_(network) {}$/;"	f	line:10	class:nav::DijkstraRouter
-nav::DijkstraRouter::Stats	include/core/routing.h	/^            struct Stats {$/;"	s	line:28	class:nav::DijkstraRouter
-nav::DijkstraRouter::Stats::compute_time_ms	include/core/routing.h	/^                double compute_time_ms = 0; \/\/计算耗时$/;"	m	line:31	struct:nav::DijkstraRouter::Stats	typeref:typename:double
-nav::DijkstraRouter::Stats::edges_relaxed	include/core/routing.h	/^                size_t edges_relaxed = 0; \/\/松弛了多少边$/;"	m	line:30	struct:nav::DijkstraRouter::Stats	typeref:typename:size_t
-nav::DijkstraRouter::Stats::nodes_explored	include/core/routing.h	/^                size_t nodes_explored = 0; \/\/访问了多少节点$/;"	m	line:29	struct:nav::DijkstraRouter::Stats	typeref:typename:size_t
-nav::DijkstraRouter::findShortestPath	src/core/routing.cpp	/^    Path DijkstraRouter::findShortestPath(Node* start, Node* end) {$/;"	f	line:12	class:nav::DijkstraRouter	typeref:typename:Path
-nav::DijkstraRouter::findShortestPathFast	src/core/routing.cpp	/^    Path DijkstraRouter::findShortestPathFast(Node* start, Node* end) {$/;"	f	line:174	class:nav::DijkstraRouter	typeref:typename:Path
-nav::DijkstraRouter::lastStats	include/core/routing.h	/^            const Stats& lastStats() const {return last_stats_; }$/;"	f	line:33	class:nav::DijkstraRouter	typeref:typename:const Stats &
-nav::DijkstraRouter::last_stats_	include/core/routing.h	/^            Stats last_stats_;$/;"	m	line:36	class:nav::DijkstraRouter	typeref:typename:Stats
-nav::DijkstraRouter::network_	include/core/routing.h	/^            const RoadNetwork& network_;$/;"	m	line:35	class:nav::DijkstraRouter	typeref:typename:const RoadNetwork &
-nav::Edge	include/core/graph.h	/^	struct Edge{$/;"	s	line:34	namespace:nav
-nav::Edge::from	include/core/graph.h	/^		Node* from;\/\/起点$/;"	m	line:36	struct:nav::Edge	typeref:typename:Node *
-nav::Edge::id	include/core/graph.h	/^		EdgeID id;$/;"	m	line:35	struct:nav::Edge	typeref:typename:EdgeID
-nav::Edge::length	include/core/graph.h	/^		double length;\/\/长度(m)$/;"	m	line:38	struct:nav::Edge	typeref:typename:double
-nav::Edge::oneway	include/core/graph.h	/^		bool oneway;\/\/是否单行线$/;"	m	line:40	struct:nav::Edge	typeref:typename:bool
-nav::Edge::speed_limit	include/core/graph.h	/^		double speed_limit;\/\/限速多少(km\/h)$/;"	m	line:39	struct:nav::Edge	typeref:typename:double
-nav::Edge::to	include/core/graph.h	/^		Node* to;\/\/终点$/;"	m	line:37	struct:nav::Edge	typeref:typename:Node *
-nav::Edge::travelTime	include/core/graph.h	/^		double travelTime() const {return length \/ (speed_limit \/ 3.6); }$/;"	f	line:43	struct:nav::Edge	typeref:typename:double
-nav::Edge::weight	include/core/graph.h	/^		double weight() const {return travelTime();}$/;"	f	line:46	struct:nav::Edge	typeref:typename:double
-nav::EdgeID	include/core/graph.h	/^	using EdgeID = uint64_t;$/;"	t	line:13	namespace:nav	typeref:typename:uint64_t
-nav::GridIndex	include/core/spatial_index.h	/^	class GridIndex {$/;"	c	line:10	namespace:nav
-nav::GridIndex::GridIndex	src/core/spatial_index.cpp	/^	GridIndex::GridIndex(double cell_size) : cell_size_(cell_size){}$/;"	f	line:8	class:nav::GridIndex
-nav::GridIndex::build	src/core/spatial_index.cpp	/^	void GridIndex::build(const RoadNetwork& network) {$/;"	f	line:10	class:nav::GridIndex	typeref:typename:void
-nav::GridIndex::cell_size_	include/core/spatial_index.h	/^		double cell_size_;$/;"	m	line:30	class:nav::GridIndex	typeref:typename:double
-nav::GridIndex::getCell	src/core/spatial_index.cpp	/^	std::pair<int, int> GridIndex::getCell(double lat, double lon) const {$/;"	f	line:48	class:nav::GridIndex	typeref:typename:std::pair<int,int>
-nav::GridIndex::grid_	include/core/spatial_index.h	/^		std::map<std::pair<int, int>, std::vector<Node*>> grid_;$/;"	m	line:31	class:nav::GridIndex	typeref:typename:std::map<std::pair<int,int>,std::vector<Node * >>
-nav::GridIndex::nearest	src/core/spatial_index.cpp	/^	std::vector<Node*> GridIndex::nearest(const Coordinate& coord, int k) const {$/;"	f	line:19	class:nav::GridIndex	typeref:typename:std::vector<Node * >
-nav::GridIndex::rangeQuery	src/core/spatial_index.cpp	/^        std::vector<Node*> GridIndex::rangeQuery(double min_lat, double min_lon, double max_lat,/;"	f	line:55	class:nav::GridIndex	typeref:typename:std::vector<Node * >
-nav::MapLoader	include/core/map_loader.h	/^class MapLoader{$/;"	c	line:8	namespace:nav
-nav::MapLoader::Stats	include/core/map_loader.h	/^    struct Stats {$/;"	s	line:13	class:nav::MapLoader
-nav::MapLoader::Stats::edges_created	include/core/map_loader.h	/^        size_t edges_created = 0;$/;"	m	line:16	struct:nav::MapLoader::Stats	typeref:typename:size_t
-nav::MapLoader::Stats::load_time_ms	include/core/map_loader.h	/^        double load_time_ms = 0;$/;"	m	line:17	struct:nav::MapLoader::Stats	typeref:typename:double
-nav::MapLoader::Stats::nodes_parsed	include/core/map_loader.h	/^        size_t nodes_parsed = 0;$/;"	m	line:14	struct:nav::MapLoader::Stats	typeref:typename:size_t
-nav::MapLoader::Stats::ways_parsed	include/core/map_loader.h	/^        size_t ways_parsed = 0;$/;"	m	line:15	struct:nav::MapLoader::Stats	typeref:typename:size_t
-nav::MapLoader::getSpeedLimit	src/core/map_loader.cpp	/^    double MapLoader::getSpeedLimit(const std::string& type) const {$/;"	f	line:102	class:nav::MapLoader	typeref:typename:double
-nav::MapLoader::isDrivableRoad	src/core/map_loader.cpp	/^    bool MapLoader::isDrivableRoad(const std::string& type) const {$/;"	f	line:95	class:nav::MapLoader	typeref:typename:bool
-nav::MapLoader::loadFromOSM	src/core/map_loader.cpp	/^    bool MapLoader:: loadFromOSM(const std::string& filename, RoadNetwork& network) {$/;"	f	line:11	class:nav::MapLoader	typeref:typename:bool
-nav::MapLoader::next_edge_id_	include/core/map_loader.h	/^    static uint64_t next_edge_id_;    \/\/全局边ID计数器$/;"	m	line:23	class:nav::MapLoader	typeref:typename:uint64_t
-nav::MapLoader::next_edge_id_	src/core/map_loader.cpp	/^    uint64_t MapLoader::next_edge_id_ = 0;$/;"	m	line:9	class:nav::MapLoader	typeref:typename:uint64_t
-nav::MapLoader::stats	include/core/map_loader.h	/^    const Stats& stats() const { return stats_; }$/;"	f	line:19	class:nav::MapLoader	typeref:typename:const Stats &
-nav::MapLoader::stats_	include/core/map_loader.h	/^    Stats stats_;$/;"	m	line:22	class:nav::MapLoader	typeref:typename:Stats
-nav::Node	include/core/graph.h	/^	struct Node{$/;"	s	line:24	namespace:nav
-nav::Node::Node	include/core/graph.h	/^		Node(NodeID i,double la, double lo) : id(i), coord{la, lo} {}$/;"	f	line:30	struct:nav::Node
-nav::Node::coord	include/core/graph.h	/^		Coordinate coord;$/;"	m	line:26	struct:nav::Node	typeref:typename:Coordinate
-nav::Node::id	include/core/graph.h	/^		NodeID id;$/;"	m	line:25	struct:nav::Node	typeref:typename:NodeID
-nav::Node::incoming	include/core/graph.h	/^		std::vector<Edge*> incoming;\/\/入边$/;"	m	line:28	struct:nav::Node	typeref:typename:std::vector<Edge * >
-nav::Node::outgoing	include/core/graph.h	/^		std::vector<Edge*> outgoing;\/\/出边$/;"	m	line:27	struct:nav::Node	typeref:typename:std::vector<Edge * >
-nav::NodeID	include/core/graph.h	/^	using NodeID = uint64_t;$/;"	t	line:12	namespace:nav	typeref:typename:uint64_t
-nav::Path	include/core/routing.h	/^    struct Path {$/;"	s	line:9	namespace:nav
-nav::Path::found	include/core/routing.h	/^        bool found = false;               \/\/是否找到路径$/;"	m	line:13	struct:nav::Path	typeref:typename:bool
-nav::Path::hopCount	include/core/routing.h	/^        size_t hopCount() const { return nodes.empty() ? 0 : nodes.size() - 1;};$/;"	f	line:15	struct:nav::Path	typeref:typename:size_t
-nav::Path::nodes	include/core/routing.h	/^        std::vector<Node*> nodes;         \/\/经过的节点序列$/;"	m	line:10	struct:nav::Path	typeref:typename:std::vector<Node * >
-nav::Path::total_distance	include/core/routing.h	/^        double total_distance = 0;        \/\/总距离（米）$/;"	m	line:11	struct:nav::Path	typeref:typename:double
-nav::Path::total_time	include/core/routing.h	/^        double total_time = 0;            \/\/总时间（秒）$/;"	m	line:12	struct:nav::Path	typeref:typename:double
-nav::RoadNetwork	include/core/graph.h	/^	class RoadNetwork{$/;"	c	line:49	namespace:nav
-nav::RoadNetwork::addEdge	src/core/graph.cpp	/^	Edge* RoadNetwork::addEdge(EdgeID id, NodeID from_id, NodeID to_id, double length, double speed/;"	f	line:33	class:nav::RoadNetwork	typeref:typename:Edge *
-nav::RoadNetwork::addNode	src/core/graph.cpp	/^	Node* RoadNetwork::addNode(NodeID id, double lat, double lon){$/;"	f	line:20	class:nav::RoadNetwork	typeref:typename:Node *
-nav::RoadNetwork::buildIndex	src/core/graph.cpp	/^        void RoadNetwork::buildIndex() {$/;"	f	line:89	class:nav::RoadNetwork	typeref:typename:void
-nav::RoadNetwork::edgeCount	include/core/graph.h	/^		size_t edgeCount() const { return edges_.size(); }$/;"	f	line:73	class:nav::RoadNetwork	typeref:typename:size_t
-nav::RoadNetwork::edges_	include/core/graph.h	/^		std::unordered_map<EdgeID, std::unique_ptr<Edge>> edges_;$/;"	m	line:87	class:nav::RoadNetwork	typeref:typename:std::unordered_map<EdgeID,std::unique_ptr<Edge>>
-nav::RoadNetwork::getNeighbors	src/core/graph.cpp	/^	std::vector<std::pair<Node*, double>> RoadNetwork::getNeighbors(Node* node) const{$/;"	f	line:75	class:nav::RoadNetwork	typeref:typename:std::vector<std::pair<Node *,double>>
-nav::RoadNetwork::getNode	src/core/graph.cpp	/^	Node* RoadNetwork::getNode(NodeID id) const{$/;"	f	line:64	class:nav::RoadNetwork	typeref:typename:Node *
-nav::RoadNetwork::id_to_index_	include/core/graph.h	/^                std::unordered_map<NodeID, size_t> id_to_index_;$/;"	m	line:90	class:nav::RoadNetwork	typeref:typename:std::unordered_map<NodeID,size_t>
-nav::RoadNetwork::indexSize	include/core/graph.h	/^                size_t indexSize() const { return id_to_index_.size(); }$/;"	f	line:83	class:nav::RoadNetwork	typeref:typename:size_t
-nav::RoadNetwork::index_to_node_	include/core/graph.h	/^                std::vector<Node*> index_to_node_;$/;"	m	line:92	class:nav::RoadNetwork	typeref:typename:std::vector<Node * >
-nav::RoadNetwork::nodeByIndex	src/core/graph.cpp	/^        Node* RoadNetwork::nodeByIndex(size_t idx) const {$/;"	f	line:101	class:nav::RoadNetwork	typeref:typename:Node *
-nav::RoadNetwork::nodeCount	include/core/graph.h	/^		size_t nodeCount() const { return nodes_.size(); }$/;"	f	line:72	class:nav::RoadNetwork	typeref:typename:size_t
-nav::RoadNetwork::nodeIndex	src/core/graph.cpp	/^        size_t RoadNetwork::nodeIndex(NodeID id) const {$/;"	f	line:107	class:nav::RoadNetwork	typeref:typename:size_t
-nav::RoadNetwork::nodes	src/core/graph.cpp	/^	const std::unordered_map<NodeID, std::unique_ptr<Node>>& RoadNetwork::nodes() const{$/;"	f	line:71	class:nav::RoadNetwork	typeref:typename:const std::unordered_map<NodeID,std::unique_ptr<Node>> &
-nav::RoadNetwork::nodes_	include/core/graph.h	/^		std::unordered_map<NodeID, std::unique_ptr<Node>> nodes_;$/;"	m	line:86	class:nav::RoadNetwork	typeref:typename:std::unordered_map<NodeID,std::unique_ptr<Node>>
-nav::RoadNetwork::~RoadNetwork	src/core/graph.cpp	/^	RoadNetwork::~RoadNetwork(){$/;"	f	line:14	class:nav::RoadNetwork
-nav_cli	CMakeLists.txt	/^add_executable(nav_cli src\/main_cli.cpp)$/;"	t	line:31
-nav_cli	build/Makefile	/^nav_cli: cmake_check_build_system$/;"	t	line:146
-nav_cli/fast	build/Makefile	/^nav_cli\/fast:$/;"	t	line:151
-nav_core	CMakeLists.txt	/^add_library(nav_core$/;"	t	line:20
-nav_core	build/Makefile	/^nav_core: cmake_check_build_system$/;"	t	line:133
-nav_core/fast	build/Makefile	/^nav_core\/fast:$/;"	t	line:138
-nearest	src/core/spatial_index.cpp	/^	std::vector<Node*> GridIndex::nearest(const Coordinate& coord, int k) const {$/;"	f	line:19	class:nav::GridIndex	typeref:typename:std::vector<Node * >
-network	tests/test_routing.cpp	/^        RoadNetwork network;$/;"	m	line:43	class:RoutingTest	typeref:typename:RoadNetwork	file:
-network_	include/core/routing.h	/^            const RoadNetwork& network_;$/;"	m	line:35	class:nav::DijkstraRouter	typeref:typename:const RoadNetwork &
-network_	include/core/routing.h	/^            const RoadNetwork& network_;$/;"	m	line:48	class:nav::AStarRouter	typeref:typename:const RoadNetwork &
-next_edge_id_	include/core/map_loader.h	/^    static uint64_t next_edge_id_;    \/\/全局边ID计数器$/;"	m	line:23	class:nav::MapLoader	typeref:typename:uint64_t
-next_edge_id_	src/core/map_loader.cpp	/^    uint64_t MapLoader::next_edge_id_ = 0;$/;"	m	line:9	class:nav::MapLoader	typeref:typename:uint64_t
-nodeByIndex	src/core/graph.cpp	/^        Node* RoadNetwork::nodeByIndex(size_t idx) const {$/;"	f	line:101	class:nav::RoadNetwork	typeref:typename:Node *
-nodeCount	include/core/graph.h	/^		size_t nodeCount() const { return nodes_.size(); }$/;"	f	line:72	class:nav::RoadNetwork	typeref:typename:size_t
-nodeIndex	src/core/graph.cpp	/^        size_t RoadNetwork::nodeIndex(NodeID id) const {$/;"	f	line:107	class:nav::RoadNetwork	typeref:typename:size_t
-nodes	include/core/routing.h	/^        std::vector<Node*> nodes;         \/\/经过的节点序列$/;"	m	line:10	struct:nav::Path	typeref:typename:std::vector<Node * >
-nodes	src/core/graph.cpp	/^	const std::unordered_map<NodeID, std::unique_ptr<Node>>& RoadNetwork::nodes() const{$/;"	f	line:71	class:nav::RoadNetwork	typeref:typename:const std::unordered_map<NodeID,std::unique_ptr<Node>> &
-nodes_	include/core/graph.h	/^		std::unordered_map<NodeID, std::unique_ptr<Node>> nodes_;$/;"	m	line:86	class:nav::RoadNetwork	typeref:typename:std::unordered_map<NodeID,std::unique_ptr<Node>>
-nodes_explored	include/core/routing.h	/^                size_t nodes_explored = 0; \/\/访问了多少节点$/;"	m	line:29	struct:nav::DijkstraRouter::Stats	typeref:typename:size_t
-nodes_parsed	include/core/map_loader.h	/^        size_t nodes_parsed = 0;$/;"	m	line:14	struct:nav::MapLoader::Stats	typeref:typename:size_t
-oneway	include/core/graph.h	/^		bool oneway;\/\/是否单行线$/;"	m	line:40	struct:nav::Edge	typeref:typename:bool
-outgoing	include/core/graph.h	/^		std::vector<Edge*> outgoing;\/\/出边$/;"	m	line:27	struct:nav::Node	typeref:typename:std::vector<Edge * >
-preinstall	build/Makefile	/^preinstall: all$/;"	t	line:115
-preinstall/fast	build/Makefile	/^preinstall\/fast:$/;"	t	line:120
-printUsage	src/main_cli.cpp	/^void printUsage(const char* name) {$/;"	f	line:9	typeref:typename:void
-qnxnto	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v	line:394	typeref:typename:char const *
-rangeQuery	src/core/spatial_index.cpp	/^        std::vector<Node*> GridIndex::rangeQuery(double min_lat, double min_lon, double max_lat,/;"	f	line:55	class:nav::GridIndex	typeref:typename:std::vector<Node * >
-rebuild_cache	build/Makefile	/^rebuild_cache:$/;"	t	line:89
-rebuild_cache/fast	build/Makefile	/^rebuild_cache\/fast: rebuild_cache$/;"	t	line:95
-speed_limit	include/core/graph.h	/^		double speed_limit;\/\/限速多少(km\/h)$/;"	m	line:39	struct:nav::Edge	typeref:typename:double
-src/core/graph.cpp.i	build/Makefile	/^src\/core\/graph.cpp.i:$/;"	t	line:206
-src/core/graph.cpp.o	build/Makefile	/^src\/core\/graph.cpp.o:$/;"	t	line:198
-src/core/graph.cpp.s	build/Makefile	/^src\/core\/graph.cpp.s:$/;"	t	line:214
-src/core/graph.i	build/Makefile	/^src\/core\/graph.i: src\/core\/graph.cpp.i$/;"	t	line:202
-src/core/graph.o	build/Makefile	/^src\/core\/graph.o: src\/core\/graph.cpp.o$/;"	t	line:194
-src/core/graph.s	build/Makefile	/^src\/core\/graph.s: src\/core\/graph.cpp.s$/;"	t	line:210
-src/core/map_loader.cpp.i	build/Makefile	/^src\/core\/map_loader.cpp.i:$/;"	t	line:230
-src/core/map_loader.cpp.o	build/Makefile	/^src\/core\/map_loader.cpp.o:$/;"	t	line:222
-src/core/map_loader.cpp.s	build/Makefile	/^src\/core\/map_loader.cpp.s:$/;"	t	line:238
-src/core/map_loader.i	build/Makefile	/^src\/core\/map_loader.i: src\/core\/map_loader.cpp.i$/;"	t	line:226
-src/core/map_loader.o	build/Makefile	/^src\/core\/map_loader.o: src\/core\/map_loader.cpp.o$/;"	t	line:218
-src/core/map_loader.s	build/Makefile	/^src\/core\/map_loader.s: src\/core\/map_loader.cpp.s$/;"	t	line:234
-src/core/routing.cpp.i	build/Makefile	/^src\/core\/routing.cpp.i:$/;"	t	line:254
-src/core/routing.cpp.o	build/Makefile	/^src\/core\/routing.cpp.o:$/;"	t	line:246
-src/core/routing.cpp.s	build/Makefile	/^src\/core\/routing.cpp.s:$/;"	t	line:262
-src/core/routing.i	build/Makefile	/^src\/core\/routing.i: src\/core\/routing.cpp.i$/;"	t	line:250
-src/core/routing.o	build/Makefile	/^src\/core\/routing.o: src\/core\/routing.cpp.o$/;"	t	line:242
-src/core/routing.s	build/Makefile	/^src\/core\/routing.s: src\/core\/routing.cpp.s$/;"	t	line:258
-src/core/spatial_index.cpp.i	build/Makefile	/^src\/core\/spatial_index.cpp.i:$/;"	t	line:278
-src/core/spatial_index.cpp.o	build/Makefile	/^src\/core\/spatial_index.cpp.o:$/;"	t	line:270
-src/core/spatial_index.cpp.s	build/Makefile	/^src\/core\/spatial_index.cpp.s:$/;"	t	line:286
-src/core/spatial_index.i	build/Makefile	/^src\/core\/spatial_index.i: src\/core\/spatial_index.cpp.i$/;"	t	line:274
-src/core/spatial_index.o	build/Makefile	/^src\/core\/spatial_index.o: src\/core\/spatial_index.cpp.o$/;"	t	line:266
-src/core/spatial_index.s	build/Makefile	/^src\/core\/spatial_index.s: src\/core\/spatial_index.cpp.s$/;"	t	line:282
-src/main_cli.cpp.i	build/Makefile	/^src\/main_cli.cpp.i:$/;"	t	line:302
-src/main_cli.cpp.o	build/Makefile	/^src\/main_cli.cpp.o:$/;"	t	line:294
-src/main_cli.cpp.s	build/Makefile	/^src\/main_cli.cpp.s:$/;"	t	line:310
-src/main_cli.i	build/Makefile	/^src\/main_cli.i: src\/main_cli.cpp.i$/;"	t	line:298
-src/main_cli.o	build/Makefile	/^src\/main_cli.o: src\/main_cli.cpp.o$/;"	t	line:290
-src/main_cli.s	build/Makefile	/^src\/main_cli.s: src\/main_cli.cpp.s$/;"	t	line:306
-stats	include/core/map_loader.h	/^    const Stats& stats() const { return stats_; }$/;"	f	line:19	class:nav::MapLoader	typeref:typename:const Stats &
-stats_	include/core/map_loader.h	/^    Stats stats_;$/;"	m	line:22	class:nav::MapLoader	typeref:typename:Stats
-test	build/Makefile	/^test:$/;"	t	line:69
-test/fast	build/Makefile	/^test\/fast: test$/;"	t	line:75
-test_graph	CMakeLists.txt	/^add_executable(test_graph tests\/test_graph.cpp)$/;"	t	line:37
-test_graph	build/Makefile	/^test_graph: cmake_check_build_system$/;"	t	line:159
-test_graph/fast	build/Makefile	/^test_graph\/fast:$/;"	t	line:164
-test_routing	CMakeLists.txt	/^add_executable(test_routing tests\/test_routing.cpp)$/;"	t	line:47
-test_routing	build/Makefile	/^test_routing: cmake_check_build_system$/;"	t	line:172
-test_routing/fast	build/Makefile	/^test_routing\/fast:$/;"	t	line:177
-tests/benchmark_routing.cpp.i	build/Makefile	/^tests\/benchmark_routing.cpp.i:$/;"	t	line:326
-tests/benchmark_routing.cpp.o	build/Makefile	/^tests\/benchmark_routing.cpp.o:$/;"	t	line:318
-tests/benchmark_routing.cpp.s	build/Makefile	/^tests\/benchmark_routing.cpp.s:$/;"	t	line:334
-tests/benchmark_routing.i	build/Makefile	/^tests\/benchmark_routing.i: tests\/benchmark_routing.cpp.i$/;"	t	line:322
-tests/benchmark_routing.o	build/Makefile	/^tests\/benchmark_routing.o: tests\/benchmark_routing.cpp.o$/;"	t	line:314
-tests/benchmark_routing.s	build/Makefile	/^tests\/benchmark_routing.s: tests\/benchmark_routing.cpp.s$/;"	t	line:330
-tests/test_graph.cpp.i	build/Makefile	/^tests\/test_graph.cpp.i:$/;"	t	line:350
-tests/test_graph.cpp.o	build/Makefile	/^tests\/test_graph.cpp.o:$/;"	t	line:342
-tests/test_graph.cpp.s	build/Makefile	/^tests\/test_graph.cpp.s:$/;"	t	line:358
-tests/test_graph.i	build/Makefile	/^tests\/test_graph.i: tests\/test_graph.cpp.i$/;"	t	line:346
-tests/test_graph.o	build/Makefile	/^tests\/test_graph.o: tests\/test_graph.cpp.o$/;"	t	line:338
-tests/test_graph.s	build/Makefile	/^tests\/test_graph.s: tests\/test_graph.cpp.s$/;"	t	line:354
-tests/test_routing.cpp.i	build/Makefile	/^tests\/test_routing.cpp.i:$/;"	t	line:374
-tests/test_routing.cpp.o	build/Makefile	/^tests\/test_routing.cpp.o:$/;"	t	line:366
-tests/test_routing.cpp.s	build/Makefile	/^tests\/test_routing.cpp.s:$/;"	t	line:382
-tests/test_routing.i	build/Makefile	/^tests\/test_routing.i: tests\/test_routing.cpp.i$/;"	t	line:370
-tests/test_routing.o	build/Makefile	/^tests\/test_routing.o: tests\/test_routing.cpp.o$/;"	t	line:362
-tests/test_routing.s	build/Makefile	/^tests\/test_routing.s: tests\/test_routing.cpp.s$/;"	t	line:378
-to	include/core/graph.h	/^		Node* to;\/\/终点$/;"	m	line:37	struct:nav::Edge	typeref:typename:Node *
-total_distance	include/core/routing.h	/^        double total_distance = 0;        \/\/总距离（米）$/;"	m	line:11	struct:nav::Path	typeref:typename:double
-total_time	include/core/routing.h	/^        double total_time = 0;            \/\/总时间（秒）$/;"	m	line:12	struct:nav::Path	typeref:typename:double
-travelTime	include/core/graph.h	/^		double travelTime() const {return length \/ (speed_limit \/ 3.6); }$/;"	f	line:43	struct:nav::Edge	typeref:typename:double
-ways_parsed	include/core/map_loader.h	/^        size_t ways_parsed = 0;$/;"	m	line:15	struct:nav::MapLoader::Stats	typeref:typename:size_t
-weight	include/core/graph.h	/^		double weight() const {return travelTime();}$/;"	f	line:46	struct:nav::Edge	typeref:typename:double
-~RoadNetwork	src/core/graph.cpp	/^	RoadNetwork::~RoadNetwork(){$/;"	f	line:14	class:nav::RoadNetwork
+$(VERBOSE).SILENT	build/Makefile	/^$(VERBOSE).SILENT:$/;"	t
+$(VERBOSE)MAKESILENT	build/Makefile	/^$(VERBOSE)MAKESILENT = -s$/;"	m
+%	build/Makefile	/^% : %,v$/;"	t
+%	build/Makefile	/^% : RCS\/%$/;"	t
+%	build/Makefile	/^% : RCS\/%,v$/;"	t
+%	build/Makefile	/^% : SCCS\/s.%$/;"	t
+%	build/Makefile	/^% : s.%$/;"	t
+0	.vscode/launch.json	/^        {$/;"	o	array:configurations
+ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID$/;"	d	file:
+AStarRouter	include/core/routing.h	/^            explicit AStarRouter(const RoadNetwork& network);$/;"	p	class:nav::AStarRouter	access:public	signature:(const RoadNetwork & network)
+AStarRouter	include/core/routing.h	/^    class AStarRouter {$/;"	c	namespace:nav
+AStarRouter	src/core/routing.cpp	/^    AStarRouter::AStarRouter(const RoadNetwork& network) : network_(network) {}$/;"	f	class:nav::AStarRouter	signature:(const RoadNetwork & network)
+CHEdge	include/core/contraction_hierarchies.h	/^    struct CHEdge {$/;"	s	namespace:nav
+CHRouter	include/core/contraction_hierarchies.h	/^            explicit CHRouter(const RoadNetwork& network);$/;"	p	class:nav::CHRouter	access:public	signature:(const RoadNetwork & network)
+CHRouter	include/core/contraction_hierarchies.h	/^    class CHRouter {$/;"	c	namespace:nav
+CHRouter	src/core/contraction_hierarchies.cpp	/^    CHRouter::CHRouter(const RoadNetwork& network) : network_(network) {}$/;"	f	class:nav::CHRouter	signature:(const RoadNetwork & network)
+CMAKE_AR	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_AR "\/usr\/bin\/ar")$/;"	v
+CMAKE_BINARY_DIR	build/Makefile	/^CMAKE_BINARY_DIR = \/home\/gloria\/navigation-system\/build$/;"	m
+CMAKE_CL_SHOWINCLUDES_PREFIX	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^  set(CMAKE_CL_SHOWINCLUDES_PREFIX "${CMAKE_CXX_CL_SHOWINCLUDES_PREFIX}")$/;"	v
+CMAKE_COMMAND	build/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_COMPILER_IS_GNUCXX	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_COMPILER_IS_GNUCXX 1)$/;"	v
+CMAKE_CROSSCOMPILING	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_CROSSCOMPILING "FALSE")$/;"	v
+CMAKE_CROSSCOMPILING	build/cmake_install.cmake	/^  set(CMAKE_CROSSCOMPILING "FALSE")$/;"	v
+CMAKE_CXX11_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX11_COMPILE_FEATURES "cxx_std_11;cxx_alias_templates;cxx_alignas;cxx_alignof;cxx_att/;"	v
+CMAKE_CXX14_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX14_COMPILE_FEATURES "cxx_std_14;cxx_aggregate_default_initializers;cxx_attribute_de/;"	v
+CMAKE_CXX17_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX17_COMPILE_FEATURES "cxx_std_17")$/;"	v
+CMAKE_CXX20_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX20_COMPILE_FEATURES "cxx_std_20")$/;"	v
+CMAKE_CXX23_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX23_COMPILE_FEATURES "cxx_std_23")$/;"	v
+CMAKE_CXX98_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX98_COMPILE_FEATURES "cxx_std_98;cxx_template_template_parameters")$/;"	v
+CMAKE_CXX_ABI_COMPILED	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_ABI_COMPILED TRUE)$/;"	v
+CMAKE_CXX_BYTE_ORDER	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_BYTE_ORDER "LITTLE_ENDIAN")$/;"	v
+CMAKE_CXX_CL_SHOWINCLUDES_PREFIX	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_CL_SHOWINCLUDES_PREFIX "")$/;"	v
+CMAKE_CXX_COMPILER	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER "\/usr\/bin\/c++")$/;"	v
+CMAKE_CXX_COMPILER_ABI	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ABI "ELF")$/;"	v
+CMAKE_CXX_COMPILER_AR	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_AR "\/usr\/bin\/gcc-ar-11")$/;"	v
+CMAKE_CXX_COMPILER_ARG1	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ARG1 "")$/;"	v
+CMAKE_CXX_COMPILER_ENV_VAR	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ENV_VAR "CXX")$/;"	v
+CMAKE_CXX_COMPILER_FRONTEND_VARIANT	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_FRONTEND_VARIANT "")$/;"	v
+CMAKE_CXX_COMPILER_ID	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ID "GNU")$/;"	v
+CMAKE_CXX_COMPILER_ID_RUN	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ID_RUN 1)$/;"	v
+CMAKE_CXX_COMPILER_LOADED	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_LOADED 1)$/;"	v
+CMAKE_CXX_COMPILER_RANLIB	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_RANLIB "\/usr\/bin\/gcc-ranlib-11")$/;"	v
+CMAKE_CXX_COMPILER_VERSION	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_VERSION "11.4.0")$/;"	v
+CMAKE_CXX_COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")$/;"	v
+CMAKE_CXX_COMPILER_WORKS	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_WORKS TRUE)$/;"	v
+CMAKE_CXX_COMPILER_WRAPPER	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_WRAPPER "")$/;"	v
+CMAKE_CXX_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILE_FEATURES "cxx_std_98;cxx_template_template_parameters;cxx_std_11;cxx_alias/;"	v
+CMAKE_CXX_EXTENSIONS_COMPUTED_DEFAULT	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_EXTENSIONS_COMPUTED_DEFAULT "ON")$/;"	v
+CMAKE_CXX_FLAGS	CMakeLists.txt	/^set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2 -Wall -Wextra")$/;"	v
+CMAKE_CXX_IGNORE_EXTENSIONS	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IGNORE_EXTENSIONS inl;h;hpp;HPP;H;o;O;obj;OBJ;def;DEF;rc;RC)$/;"	v
+CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "\/usr\/include\/c++\/11;\/usr\/include\/x86_64-linux/;"	v
+CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "\/usr\/lib\/gcc\/x86_64-linux-gnu\/11;\/usr\/lib\/x86_6/;"	v
+CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")$/;"	v
+CMAKE_CXX_IMPLICIT_LINK_LIBRARIES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;m;gcc_s;gcc;c;gcc_s;gcc")$/;"	v
+CMAKE_CXX_INCLUDE_REGEX_COMPLAIN	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_CXX_INCLUDE_REGEX_COMPLAIN ${CMAKE_C_INCLUDE_REGEX_COMPLAIN})$/;"	v
+CMAKE_CXX_INCLUDE_REGEX_SCAN	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_CXX_INCLUDE_REGEX_SCAN ${CMAKE_C_INCLUDE_REGEX_SCAN})$/;"	v
+CMAKE_CXX_LIBRARY_ARCHITECTURE	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_LIBRARY_ARCHITECTURE "x86_64-linux-gnu")$/;"	v
+CMAKE_CXX_LINKER_PREFERENCE	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_LINKER_PREFERENCE 30)$/;"	v
+CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES 1)$/;"	v
+CMAKE_CXX_PLATFORM_ID	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_PLATFORM_ID "Linux")$/;"	v
+CMAKE_CXX_SIMULATE_ID	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SIMULATE_ID "")$/;"	v
+CMAKE_CXX_SIMULATE_VERSION	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SIMULATE_VERSION "")$/;"	v
+CMAKE_CXX_SIZEOF_DATA_PTR	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SIZEOF_DATA_PTR "8")$/;"	v
+CMAKE_CXX_SOURCE_FILE_EXTENSIONS	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SOURCE_FILE_EXTENSIONS C;M;c++;cc;cpp;cxx;m;mm;mpp;CPP;ixx;cppm)$/;"	v
+CMAKE_CXX_STANDARD	CMakeLists.txt	/^set(CMAKE_CXX_STANDARD 17)$/;"	v
+CMAKE_CXX_STANDARD_COMPUTED_DEFAULT	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "17")$/;"	v
+CMAKE_CXX_STANDARD_REQUIRED	CMakeLists.txt	/^set(CMAKE_CXX_STANDARD_REQUIRED ON)$/;"	v
+CMAKE_C_INCLUDE_REGEX_COMPLAIN	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_C_INCLUDE_REGEX_COMPLAIN "^$")$/;"	v
+CMAKE_C_INCLUDE_REGEX_SCAN	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_C_INCLUDE_REGEX_SCAN "^.*$")$/;"	v
+CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/benchmark_routing.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
+CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/nav_cli.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
+CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/nav_core.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
+CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/test_graph.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
+CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/test_routing.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
+CMAKE_DEPENDS_GENERATOR	build/CMakeFiles/Makefile.cmake	/^set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")$/;"	v
+CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/benchmark_routing.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
+CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/nav_cli.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
+CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/nav_core.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
+CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/test_graph.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
+CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/test_routing.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/benchmark_routing.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/nav_cli.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/nav_core.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/test_graph.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/test_routing.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPEND_INFO_FILES	build/CMakeFiles/Makefile.cmake	/^set(CMAKE_DEPEND_INFO_FILES$/;"	v
+CMAKE_FORCE_UNIX_PATHS	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_FORCE_UNIX_PATHS 1)$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/benchmark_routing.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/nav_cli.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/nav_core.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test_graph.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test_routing.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_HOST_SYSTEM	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM "Linux-5.15.167.4-microsoft-standard-WSL2")$/;"	v
+CMAKE_HOST_SYSTEM_NAME	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_NAME "Linux")$/;"	v
+CMAKE_HOST_SYSTEM_PROCESSOR	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")$/;"	v
+CMAKE_HOST_SYSTEM_VERSION	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_VERSION "5.15.167.4-microsoft-standard-WSL2")$/;"	v
+CMAKE_INSTALL_COMPONENT	build/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")$/;"	v
+CMAKE_INSTALL_COMPONENT	build/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT)$/;"	v
+CMAKE_INSTALL_CONFIG_NAME	build/cmake_install.cmake	/^    set(CMAKE_INSTALL_CONFIG_NAME "")$/;"	v
+CMAKE_INSTALL_MANIFEST	build/cmake_install.cmake	/^  set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")$/;"	v
+CMAKE_INSTALL_MANIFEST	build/cmake_install.cmake	/^  set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")$/;"	v
+CMAKE_INSTALL_PREFIX	build/cmake_install.cmake	/^  set(CMAKE_INSTALL_PREFIX "\/usr\/local")$/;"	v
+CMAKE_INSTALL_SO_NO_EXE	build/cmake_install.cmake	/^  set(CMAKE_INSTALL_SO_NO_EXE "1")$/;"	v
+CMAKE_INTERNAL_PLATFORM_ABI	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^  set(CMAKE_INTERNAL_PLATFORM_ABI "${CMAKE_CXX_COMPILER_ABI}")$/;"	v
+CMAKE_LIBRARY_ARCHITECTURE	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^  set(CMAKE_LIBRARY_ARCHITECTURE "x86_64-linux-gnu")$/;"	v
+CMAKE_LINKER	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_LINKER "\/usr\/bin\/ld")$/;"	v
+CMAKE_MAKEFILE_DEPENDS	build/CMakeFiles/Makefile.cmake	/^set(CMAKE_MAKEFILE_DEPENDS$/;"	v
+CMAKE_MAKEFILE_OUTPUTS	build/CMakeFiles/Makefile.cmake	/^set(CMAKE_MAKEFILE_OUTPUTS$/;"	v
+CMAKE_MAKEFILE_PRODUCTS	build/CMakeFiles/Makefile.cmake	/^set(CMAKE_MAKEFILE_PRODUCTS$/;"	v
+CMAKE_MT	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_MT "")$/;"	v
+CMAKE_OBJDUMP	build/cmake_install.cmake	/^  set(CMAKE_OBJDUMP "\/usr\/bin\/objdump")$/;"	v
+CMAKE_RANLIB	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_RANLIB "\/usr\/bin\/ranlib")$/;"	v
+CMAKE_RELATIVE_PATH_TOP_BINARY	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_RELATIVE_PATH_TOP_BINARY "\/home\/gloria\/navigation-system\/build")$/;"	v
+CMAKE_RELATIVE_PATH_TOP_SOURCE	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_RELATIVE_PATH_TOP_SOURCE "\/home\/gloria\/navigation-system")$/;"	v
+CMAKE_SIZEOF_VOID_P	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^  set(CMAKE_SIZEOF_VOID_P "${CMAKE_CXX_SIZEOF_DATA_PTR}")$/;"	v
+CMAKE_SOURCE_DIR	build/Makefile	/^CMAKE_SOURCE_DIR = \/home\/gloria\/navigation-system$/;"	m
+CMAKE_SYSTEM	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_SYSTEM "Linux-5.15.167.4-microsoft-standard-WSL2")$/;"	v
+CMAKE_SYSTEM_LOADED	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_LOADED 1)$/;"	v
+CMAKE_SYSTEM_NAME	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_NAME "Linux")$/;"	v
+CMAKE_SYSTEM_PROCESSOR	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_PROCESSOR "x86_64")$/;"	v
+CMAKE_SYSTEM_VERSION	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_VERSION "5.15.167.4-microsoft-standard-WSL2")$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/benchmark_routing.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/nav_cli.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/nav_core.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test_graph.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test_routing.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	file:
+COMPILER_VERSION	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION /;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL_STR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_INTERNAL_STR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_TWEAK /;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_TWEAK /;"	d	file:
+CXX_STD	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#      define CXX_STD /;"	d	file:
+CXX_STD	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#    define CXX_STD /;"	d	file:
+CXX_STD	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define CXX_STD /;"	d	file:
+Coordinate	include/core/graph.h	/^	struct Coordinate {$/;"	s	namespace:nav
+DEC	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define DEC(/;"	d	file:	signature:(n)
+DijkstraRouter	include/core/routing.h	/^            explicit DijkstraRouter(const RoadNetwork& network);$/;"	p	class:nav::DijkstraRouter	access:public	signature:(const RoadNetwork & network)
+DijkstraRouter	include/core/routing.h	/^    class DijkstraRouter {$/;"	c	namespace:nav
+DijkstraRouter	src/core/routing.cpp	/^    DijkstraRouter::DijkstraRouter(const RoadNetwork& network) : network_(network) {}$/;"	f	class:nav::DijkstraRouter	signature:(const RoadNetwork & network)
+EQUALS	build/Makefile	/^EQUALS = =$/;"	m
+Edge	include/core/graph.h	/^	struct Edge{$/;"	s	namespace:nav
+EdgeID	include/core/graph.h	/^	using EdgeID = uint64_t;$/;"	t	namespace:nav	typeref:typename:uint64_t
+GridIndex	include/core/spatial_index.h	/^		explicit GridIndex(double cell_size = 0.001);$/;"	p	class:nav::GridIndex	access:public	signature:(double cell_size=0.001)
+GridIndex	include/core/spatial_index.h	/^	class GridIndex {$/;"	c	namespace:nav
+GridIndex	src/core/spatial_index.cpp	/^	GridIndex::GridIndex(double cell_size) : cell_size_(cell_size){}$/;"	f	class:nav::GridIndex	signature:(double cell_size)
+HEX	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define HEX(/;"	d	file:	signature:(n)
+MapLoader	include/core/map_loader.h	/^class MapLoader{$/;"	c	namespace:nav
+NavigationSystem	CMakeLists.txt	/^project(NavigationSystem VERSION 1.0.0 LANGUAGES CXX)$/;"	p
+Node	include/core/graph.h	/^		Node(NodeID i,double la, double lo) : id(i), coord{la, lo} {}$/;"	f	struct:nav::Node	access:public	signature:(NodeID i,double la,double lo)
+Node	include/core/graph.h	/^	struct Node{$/;"	s	namespace:nav
+NodeID	include/core/graph.h	/^	using NodeID = uint64_t;$/;"	t	namespace:nav	typeref:typename:uint64_t
+PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID$/;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID$/;"	d	file:
+Path	include/core/routing.h	/^    struct Path {$/;"	s	namespace:nav
+QueueItem	src/core/contraction_hierarchies.cpp	/^        using QueueItem = std::pair<double, Node*>;$/;"	t	function:nav::CHRouter::witnessSearch	typeref:typename:std::pair<double,Node * >	file:
+QueueItem	src/core/routing.cpp	/^        using QueueItem = std::pair<double, Node*>;$/;"	t	function:nav::DijkstraRouter::findShortestPath	typeref:typename:std::pair<double,Node * >	file:
+QueueItem	src/core/routing.cpp	/^        using QueueItem = std::pair<double, size_t>; \/\/<距离，索引>$/;"	t	function:nav::DijkstraRouter::findShortestPathFast	typeref:typename:std::pair<double,size_t>	file:
+QueueItem	src/core/routing.cpp	/^        using QueueItem = std::tuple<double, double, Node*>; \/\/<f, g, node>$/;"	t	function:nav::AStarRouter::findShortestPath	typeref:typename:std::tuple<double,double,Node * >	file:
+QueueItem	src/core/spatial_index.cpp	/^		using QueueItem = std::pair<double, Node*>;$/;"	t	function:nav::GridIndex::nearest	typeref:typename:std::pair<double,Node * >	file:
+RM	build/Makefile	/^RM = \/usr\/bin\/cmake -E rm -f$/;"	m
+RoadNetwork	include/core/graph.h	/^		RoadNetwork() = default;$/;"	p	class:nav::RoadNetwork	access:public	signature:()
+RoadNetwork	include/core/graph.h	/^		RoadNetwork(const RoadNetwork&) = delete;$/;"	p	class:nav::RoadNetwork	access:public	signature:(const RoadNetwork &)
+RoadNetwork	include/core/graph.h	/^	class RoadNetwork{$/;"	c	namespace:nav
+RoutingTest	tests/test_routing.cpp	/^class RoutingTest : public ::testing::Test {$/;"	c	file:	inherits:::testing::Test
+RoutingTest::SetUp	tests/test_routing.cpp	/^    void SetUp() override {$/;"	f	class:RoutingTest	typeref:typename:void	file:	access:protected	signature:()
+RoutingTest::network	tests/test_routing.cpp	/^    RoadNetwork network;$/;"	m	class:RoutingTest	typeref:typename:RoadNetwork	file:	access:protected
+SHELL	build/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SIMULATE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_ID /;"	d	file:
+SIMULATE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_ID /;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_PATCH /;"	d	file:
+SIMULATE_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_PATCH /;"	d	file:
+STRINGIFY	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define STRINGIFY(/;"	d	file:	signature:(X)
+STRINGIFY_HELPER	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define STRINGIFY_HELPER(/;"	d	file:	signature:(X)
+SetUp	tests/test_routing.cpp	/^    void SetUp() override {$/;"	f	class:RoutingTest	typeref:typename:void	file:	access:protected	signature:()
+Stats	include/core/contraction_hierarchies.h	/^            struct Stats {$/;"	s	class:nav::CHRouter	access:public
+Stats	include/core/map_loader.h	/^    struct Stats {$/;"	s	class:nav::MapLoader	access:public
+Stats	include/core/routing.h	/^            struct Stats {$/;"	s	class:nav::DijkstraRouter	access:public
+TEST	tests/benchmark_routing.cpp	/^TEST(Benchmark, OptimizedDijkstra) {$/;"	f	signature:(Benchmark,OptimizedDijkstra)
+TEST	tests/benchmark_routing.cpp	/^TEST(Benchmark, RealMapRouting) {$/;"	f	signature:(Benchmark,RealMapRouting)
+TEST	tests/test_graph.cpp	/^TEST(GraphTest, BasicConstruction) {$/;"	f	signature:(GraphTest,BasicConstruction)
+TEST	tests/test_graph.cpp	/^TEST(MapLoaderTest, LoadSmallOSM) {$/;"	f	signature:(MapLoaderTest,LoadSmallOSM)
+TEST	tests/test_graph.cpp	/^TEST(SpatialIndexTest, NearestQuery) {$/;"	f	signature:(SpatialIndexTest,NearestQuery)
+TEST_F	tests/test_routing.cpp	/^TEST_F(RoutingTest, AStarFasterThanDijkstra) {$/;"	f	signature:(RoutingTest,AStarFasterThanDijkstra)
+TEST_F	tests/test_routing.cpp	/^TEST_F(RoutingTest, AStarSameAsDijkstra) {$/;"	f	signature:(RoutingTest,AStarSameAsDijkstra)
+TEST_F	tests/test_routing.cpp	/^TEST_F(RoutingTest, DijkstraBasicPath) {$/;"	f	signature:(RoutingTest,DijkstraBasicPath)
+TEST_F	tests/test_routing.cpp	/^TEST_F(RoutingTest, SameStartEnd) {$/;"	f	signature:(RoutingTest,SameStartEnd)
+TEST_F	tests/test_routing.cpp	/^TEST_F(RoutingTest, UnreachableNode) {$/;"	f	signature:(RoutingTest,UnreachableNode)
+__anon62b43d6d0102	src/core/routing.cpp	/^        auto cmp = [](const QueueItem& a, const QueueItem& b) {$/;"	f	function:nav::AStarRouter::findShortestPath	file:	signature:(const QueueItem& a, const QueueItem& b) 
+__anone3a9e04f0102	src/core/contraction_hierarchies.cpp	/^        std::sort(priorities.begin(), priorities.end(), [](const auto& a, const auto& b) { retur/;"	f	function:nav::CHRouter::preprocess	file:	signature:(const auto& a, const auto& b) 
+__has_include	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define __has_include(/;"	d	file:	signature:(x)
+addEdge	include/core/graph.h	/^		Edge* addEdge(EdgeID id, NodeID from, NodeID to, double length, double speed, bool oneway);$/;"	p	class:nav::RoadNetwork	typeref:typename:Edge *	access:public	signature:(EdgeID id,NodeID from,NodeID to,double length,double speed,bool oneway)
+addEdge	src/core/graph.cpp	/^	Edge* RoadNetwork::addEdge(EdgeID id, NodeID from_id, NodeID to_id, double length, double speed/;"	f	class:nav::RoadNetwork	typeref:typename:Edge *	signature:(EdgeID id,NodeID from_id,NodeID to_id,double length,double speed,bool oneway)
+addNode	include/core/graph.h	/^		Node* addNode(NodeID id, double lat, double lon);$/;"	p	class:nav::RoadNetwork	typeref:typename:Node *	access:public	signature:(NodeID id,double lat,double lon)
+addNode	src/core/graph.cpp	/^	Node* RoadNetwork::addNode(NodeID id, double lat, double lon){$/;"	f	class:nav::RoadNetwork	typeref:typename:Node *	signature:(NodeID id,double lat,double lon)
+all	build/Makefile	/^all: cmake_check_build_system$/;"	t
+benchmark_routing	CMakeLists.txt	/^add_executable(benchmark_routing tests\/benchmark_routing.cpp)$/;"	t
+benchmark_routing	build/Makefile	/^benchmark_routing: cmake_check_build_system$/;"	t
+benchmark_routing/fast	build/Makefile	/^benchmark_routing\/fast:$/;"	t
+build	include/core/spatial_index.h	/^		void build(const RoadNetwork& network);$/;"	p	class:nav::GridIndex	typeref:typename:void	access:public	signature:(const RoadNetwork & network)
+build	src/core/spatial_index.cpp	/^	void GridIndex::build(const RoadNetwork& network) {$/;"	f	class:nav::GridIndex	typeref:typename:void	signature:(const RoadNetwork & network)
+buildIndex	include/core/graph.h	/^                void buildIndex();$/;"	p	class:nav::RoadNetwork	typeref:typename:void	access:public	signature:()
+buildIndex	src/core/graph.cpp	/^        void RoadNetwork::buildIndex() {$/;"	f	class:nav::RoadNetwork	typeref:typename:void	signature:()
+cell_size_	include/core/spatial_index.h	/^		double cell_size_;$/;"	m	class:nav::GridIndex	typeref:typename:double	access:private
+ch_up_incoming	include/core/contraction_hierarchies.h	/^            std::unordered_map<NodeID, std::vector<CHEdge>> ch_up_incoming;$/;"	m	class:nav::CHRouter	typeref:typename:std::unordered_map<NodeID,std::vector<CHEdge>>	access:private
+ch_up_outgoing	include/core/contraction_hierarchies.h	/^            std::unordered_map<NodeID, std::vector<CHEdge>> ch_up_outgoing;$/;"	m	class:nav::CHRouter	typeref:typename:std::unordered_map<NodeID,std::vector<CHEdge>>	access:private
+clean	build/Makefile	/^clean:$/;"	t
+clean/fast	build/Makefile	/^clean\/fast: clean$/;"	t
+cmake_check_build_system	build/Makefile	/^cmake_check_build_system:$/;"	t
+cmake_force	build/Makefile	/^cmake_force:$/;"	t
+computeEdgeDifference	include/core/contraction_hierarchies.h	/^            double computeEdgeDifference(Node* node);$/;"	p	class:nav::CHRouter	typeref:typename:double	access:private	signature:(Node * node)
+computeEdgeDifference	src/core/contraction_hierarchies.cpp	/^    double CHRouter::computeEdgeDifference(Node* node) {$/;"	f	class:nav::CHRouter	typeref:typename:double	signature:(Node * node)
+compute_time_ms	include/core/routing.h	/^                double compute_time_ms = 0; \/\/计算耗时$/;"	m	struct:nav::DijkstraRouter::Stats	typeref:typename:double	access:public
+configurations	.vscode/launch.json	/^    "configurations": [$/;"	a
+contractNode	include/core/contraction_hierarchies.h	/^            void contractNode(Node* node);$/;"	p	class:nav::CHRouter	typeref:typename:void	access:private	signature:(Node * node)
+contractNode	src/core/contraction_hierarchies.cpp	/^    void CHRouter::contractNode(Node* node) {$/;"	f	class:nav::CHRouter	typeref:typename:void	signature:(Node * node)
+coord	include/core/graph.h	/^		Coordinate coord;$/;"	m	struct:nav::Node	typeref:typename:Coordinate	access:public
+default_target	build/Makefile	/^default_target: all$/;"	t
+depend	build/Makefile	/^depend:$/;"	t
+distanceTo	include/core/graph.h	/^		double distanceTo(const Coordinate& other) const;$/;"	p	struct:nav::Coordinate	typeref:typename:double	access:public	signature:(const Coordinate & other) const
+distanceTo	src/core/graph.cpp	/^	double Coordinate::distanceTo(const Coordinate& other ) const {$/;"	f	class:nav::Coordinate	typeref:typename:double	signature:(const Coordinate & other) const
+edgeCount	include/core/graph.h	/^		size_t edgeCount() const { return edges_.size(); }$/;"	f	class:nav::RoadNetwork	typeref:typename:size_t	access:public	signature:() const
+edges_	include/core/graph.h	/^		std::unordered_map<EdgeID, std::unique_ptr<Edge>> edges_;$/;"	m	class:nav::RoadNetwork	typeref:typename:std::unordered_map<EdgeID,std::unique_ptr<Edge>>	access:private
+edges_created	include/core/map_loader.h	/^        size_t edges_created = 0;$/;"	m	struct:nav::MapLoader::Stats	typeref:typename:size_t	access:public
+edges_relaxed	include/core/routing.h	/^                size_t edges_relaxed = 0; \/\/松弛了多少边$/;"	m	struct:nav::DijkstraRouter::Stats	typeref:typename:size_t	access:public
+edit_cache	build/Makefile	/^edit_cache:$/;"	t
+edit_cache/fast	build/Makefile	/^edit_cache\/fast: edit_cache$/;"	t
+findPath	include/core/contraction_hierarchies.h	/^            Path findPath(Node* start, Node* end);$/;"	p	class:nav::CHRouter	typeref:typename:Path	access:public	signature:(Node * start,Node * end)
+findPath	src/core/contraction_hierarchies.cpp	/^    Path CHRouter::findPath(Node* start, Node* end) {$/;"	f	class:nav::CHRouter	typeref:typename:Path	signature:(Node * start,Node * end)
+findShortestPath	include/core/routing.h	/^            Path findShortestPath(Node* start, Node* end);$/;"	p	class:nav::AStarRouter	typeref:typename:Path	access:public	signature:(Node * start,Node * end)
+findShortestPath	include/core/routing.h	/^            Path findShortestPath(Node* start, Node* end);$/;"	p	class:nav::DijkstraRouter	typeref:typename:Path	access:public	signature:(Node * start,Node * end)
+findShortestPath	src/core/routing.cpp	/^    Path AStarRouter::findShortestPath(Node* start, Node* end) {$/;"	f	class:nav::AStarRouter	typeref:typename:Path	signature:(Node * start,Node * end)
+findShortestPath	src/core/routing.cpp	/^    Path DijkstraRouter::findShortestPath(Node* start, Node* end) {$/;"	f	class:nav::DijkstraRouter	typeref:typename:Path	signature:(Node * start,Node * end)
+findShortestPathFast	include/core/routing.h	/^            Path findShortestPathFast(Node* start, Node* end);$/;"	p	class:nav::DijkstraRouter	typeref:typename:Path	access:public	signature:(Node * start,Node * end)
+findShortestPathFast	src/core/routing.cpp	/^    Path DijkstraRouter::findShortestPathFast(Node* start, Node* end) {$/;"	f	class:nav::DijkstraRouter	typeref:typename:Path	signature:(Node * start,Node * end)
+found	include/core/routing.h	/^        bool found = false;               \/\/是否找到路径$/;"	m	struct:nav::Path	typeref:typename:bool	access:public
+from	include/core/graph.h	/^		Node* from;\/\/起点$/;"	m	struct:nav::Edge	typeref:typename:Node *	access:public
+getCell	include/core/spatial_index.h	/^		std::pair<int, int> getCell(double lat, double lon) const; $/;"	p	class:nav::GridIndex	typeref:typename:std::pair<int,int>	access:private	signature:(double lat,double lon) const
+getCell	src/core/spatial_index.cpp	/^	std::pair<int, int> GridIndex::getCell(double lat, double lon) const {$/;"	f	class:nav::GridIndex	typeref:typename:std::pair<int,int>	signature:(double lat,double lon) const
+getNeighbors	include/core/graph.h	/^		std::vector<std::pair<Node*, double>> getNeighbors(Node* node) const;$/;"	p	class:nav::RoadNetwork	typeref:typename:std::vector<std::pair<Node *,double>>	access:public	signature:(Node * node) const
+getNeighbors	src/core/graph.cpp	/^	std::vector<std::pair<Node*, double>> RoadNetwork::getNeighbors(Node* node) const{$/;"	f	class:nav::RoadNetwork	typeref:typename:std::vector<std::pair<Node *,double>>	signature:(Node * node) const
+getNode	include/core/graph.h	/^		Node* getNode(NodeID id) const;$/;"	p	class:nav::RoadNetwork	typeref:typename:Node *	access:public	signature:(NodeID id) const
+getNode	src/core/graph.cpp	/^	Node* RoadNetwork::getNode(NodeID id) const{$/;"	f	class:nav::RoadNetwork	typeref:typename:Node *	signature:(NodeID id) const
+getSpeedLimit	include/core/map_loader.h	/^    double getSpeedLimit(const std::string& highway_type) const;$/;"	p	class:nav::MapLoader	typeref:typename:double	access:private	signature:(const std::string & highway_type) const
+getSpeedLimit	src/core/map_loader.cpp	/^    double MapLoader::getSpeedLimit(const std::string& type) const {$/;"	f	class:nav::MapLoader	typeref:typename:double	signature:(const std::string & type) const
+grid_	include/core/spatial_index.h	/^		std::map<std::pair<int, int>, std::vector<Node*>> grid_;$/;"	m	class:nav::GridIndex	typeref:typename:std::map<std::pair<int,int>,std::vector<Node * >>	access:private
+help	build/Makefile	/^help:$/;"	t
+heuristic	include/core/routing.h	/^            double heuristic(Node* node, Node* end) const;$/;"	p	class:nav::AStarRouter	typeref:typename:double	access:private	signature:(Node * node,Node * end) const
+heuristic	src/core/routing.cpp	/^    double AStarRouter::heuristic(Node* node, Node* end) const {$/;"	f	class:nav::AStarRouter	typeref:typename:double	signature:(Node * node,Node * end) const
+hopCount	include/core/routing.h	/^        size_t hopCount() const { return nodes.empty() ? 0 : nodes.size() - 1;};$/;"	f	struct:nav::Path	typeref:typename:size_t	access:public	signature:() const
+id	include/core/graph.h	/^		EdgeID id;$/;"	m	struct:nav::Edge	typeref:typename:EdgeID	access:public
+id	include/core/graph.h	/^		NodeID id;$/;"	m	struct:nav::Node	typeref:typename:NodeID	access:public
+id_to_index_	include/core/graph.h	/^                std::unordered_map<NodeID, size_t> id_to_index_;$/;"	m	class:nav::RoadNetwork	typeref:typename:std::unordered_map<NodeID,size_t>	access:private
+incoming	include/core/graph.h	/^		std::vector<Edge*> incoming;\/\/入边$/;"	m	struct:nav::Node	typeref:typename:std::vector<Edge * >	access:public
+indexSize	include/core/graph.h	/^                size_t indexSize() const { return id_to_index_.size(); }$/;"	f	class:nav::RoadNetwork	typeref:typename:size_t	access:public	signature:() const
+index_to_node_	include/core/graph.h	/^                std::vector<Node*> index_to_node_;$/;"	m	class:nav::RoadNetwork	typeref:typename:std::vector<Node * >	access:private
+info_arch	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v	typeref:typename:char const *
+info_compiler	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v	typeref:typename:char const *
+info_cray	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v	typeref:typename:char const *
+info_language_extensions_default	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^const char* info_language_extensions_default = "INFO" ":" "extensions_default["$/;"	v	typeref:typename:const char *
+info_language_standard_default	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^const char* info_language_standard_default = "INFO" ":" "standard_default["$/;"	v	typeref:typename:const char *
+info_platform	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v	typeref:typename:char const *
+info_simulate	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v	typeref:typename:char const *
+info_simulate_version	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_simulate_version[] = {$/;"	v	typeref:typename:char const[]
+info_version	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v	typeref:typename:char const[]
+info_version	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";$/;"	v	typeref:typename:char const *
+info_version_internal	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version_internal[] = {$/;"	v	typeref:typename:char const[]
+info_version_internal	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_version_internal = "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INT/;"	v	typeref:typename:char const *
+isDrivableRoad	include/core/map_loader.h	/^    bool isDrivableRoad(const std::string& highway_type) const;$/;"	p	class:nav::MapLoader	typeref:typename:bool	access:private	signature:(const std::string & highway_type) const
+isDrivableRoad	src/core/map_loader.cpp	/^    bool MapLoader::isDrivableRoad(const std::string& type) const {$/;"	f	class:nav::MapLoader	typeref:typename:bool	signature:(const std::string & type) const
+isReady	include/core/contraction_hierarchies.h	/^            bool isReady() const {return !node_level_.empty();}$/;"	f	class:nav::CHRouter	typeref:typename:bool	access:public	signature:() const
+is_shortcut	include/core/contraction_hierarchies.h	/^        bool is_shortcut; \/\/true = 预处理添加的捷径， false = 原图边$/;"	m	struct:nav::CHEdge	typeref:typename:bool	access:public
+lastStats	include/core/contraction_hierarchies.h	/^            const Stats& lastStats() const {return last_stats_; }$/;"	f	class:nav::CHRouter	typeref:typename:const Stats &	access:public	signature:() const
+lastStats	include/core/routing.h	/^            const DijkstraRouter::Stats& lastStats() const { return last_stats_; }$/;"	f	class:nav::AStarRouter	typeref:typename:const DijkstraRouter::Stats &	access:public	signature:() const
+lastStats	include/core/routing.h	/^            const Stats& lastStats() const {return last_stats_; }$/;"	f	class:nav::DijkstraRouter	typeref:typename:const Stats &	access:public	signature:() const
+last_stats_	include/core/contraction_hierarchies.h	/^            Stats last_stats_;$/;"	m	class:nav::CHRouter	typeref:typename:Stats	access:private
+last_stats_	include/core/routing.h	/^            DijkstraRouter::Stats last_stats_;$/;"	m	class:nav::AStarRouter	typeref:typename:DijkstraRouter::Stats	access:private
+last_stats_	include/core/routing.h	/^            Stats last_stats_;$/;"	m	class:nav::DijkstraRouter	typeref:typename:Stats	access:private
+lat	include/core/graph.h	/^		double lat;\/\/纬度$/;"	m	struct:nav::Coordinate	typeref:typename:double	access:public
+length	include/core/graph.h	/^		double length;\/\/长度(m)$/;"	m	struct:nav::Edge	typeref:typename:double	access:public
+loadFromOSM	include/core/map_loader.h	/^    bool loadFromOSM(const std::string& filename, RoadNetwork& network);$/;"	p	class:nav::MapLoader	typeref:typename:bool	access:public	signature:(const std::string & filename,RoadNetwork & network)
+loadFromOSM	src/core/map_loader.cpp	/^    bool MapLoader:: loadFromOSM(const std::string& filename, RoadNetwork& network) {$/;"	f	class:nav::MapLoader	typeref:typename:bool	signature:(const std::string & filename,RoadNetwork & network)
+load_time_ms	include/core/map_loader.h	/^        double load_time_ms = 0;$/;"	m	struct:nav::MapLoader::Stats	typeref:typename:double	access:public
+lon	include/core/graph.h	/^		double lon;\/\/经度$/;"	m	struct:nav::Coordinate	typeref:typename:double	access:public
+main	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f	typeref:typename:int	signature:(int argc,char * argv[])
+main	src/main_cli.cpp	/^int main(int argc, char* argv[]) {$/;"	f	typeref:typename:int	signature:(int argc,char * argv[])
+main	tests/test_graph.cpp	/^int main(int argc, char **argv) {$/;"	f	typeref:typename:int	signature:(int argc,char ** argv)
+name	.vscode/launch.json	/^            "name": "针对 localhost 启动 Chrome",$/;"	s	object:configurations.0
+nav	include/core/contraction_hierarchies.h	/^namespace nav {$/;"	n
+nav	include/core/graph.h	/^namespace nav {$/;"	n
+nav	include/core/map_loader.h	/^namespace nav{$/;"	n
+nav	include/core/routing.h	/^namespace nav {$/;"	n
+nav	include/core/spatial_index.h	/^namespace nav {$/;"	n
+nav	src/core/contraction_hierarchies.cpp	/^namespace nav {$/;"	n	file:
+nav	src/core/graph.cpp	/^namespace nav {$/;"	n	file:
+nav	src/core/map_loader.cpp	/^namespace nav {$/;"	n	file:
+nav	src/core/routing.cpp	/^namespace nav{$/;"	n	file:
+nav	src/core/spatial_index.cpp	/^namespace nav {$/;"	n	file:
+nav::AStarRouter	include/core/routing.h	/^    class AStarRouter {$/;"	c	namespace:nav
+nav::AStarRouter::AStarRouter	include/core/routing.h	/^            explicit AStarRouter(const RoadNetwork& network);$/;"	p	class:nav::AStarRouter	access:public	signature:(const RoadNetwork & network)
+nav::AStarRouter::AStarRouter	src/core/routing.cpp	/^    AStarRouter::AStarRouter(const RoadNetwork& network) : network_(network) {}$/;"	f	class:nav::AStarRouter	signature:(const RoadNetwork & network)
+nav::AStarRouter::findShortestPath	include/core/routing.h	/^            Path findShortestPath(Node* start, Node* end);$/;"	p	class:nav::AStarRouter	typeref:typename:Path	access:public	signature:(Node * start,Node * end)
+nav::AStarRouter::findShortestPath	src/core/routing.cpp	/^    Path AStarRouter::findShortestPath(Node* start, Node* end) {$/;"	f	class:nav::AStarRouter	typeref:typename:Path	signature:(Node * start,Node * end)
+nav::AStarRouter::heuristic	include/core/routing.h	/^            double heuristic(Node* node, Node* end) const;$/;"	p	class:nav::AStarRouter	typeref:typename:double	access:private	signature:(Node * node,Node * end) const
+nav::AStarRouter::heuristic	src/core/routing.cpp	/^    double AStarRouter::heuristic(Node* node, Node* end) const {$/;"	f	class:nav::AStarRouter	typeref:typename:double	signature:(Node * node,Node * end) const
+nav::AStarRouter::lastStats	include/core/routing.h	/^            const DijkstraRouter::Stats& lastStats() const { return last_stats_; }$/;"	f	class:nav::AStarRouter	typeref:typename:const DijkstraRouter::Stats &	access:public	signature:() const
+nav::AStarRouter::last_stats_	include/core/routing.h	/^            DijkstraRouter::Stats last_stats_;$/;"	m	class:nav::AStarRouter	typeref:typename:DijkstraRouter::Stats	access:private
+nav::AStarRouter::network_	include/core/routing.h	/^            const RoadNetwork& network_;$/;"	m	class:nav::AStarRouter	typeref:typename:const RoadNetwork &	access:private
+nav::CHEdge	include/core/contraction_hierarchies.h	/^    struct CHEdge {$/;"	s	namespace:nav
+nav::CHEdge::is_shortcut	include/core/contraction_hierarchies.h	/^        bool is_shortcut; \/\/true = 预处理添加的捷径， false = 原图边$/;"	m	struct:nav::CHEdge	typeref:typename:bool	access:public
+nav::CHEdge::to	include/core/contraction_hierarchies.h	/^        Node* to;$/;"	m	struct:nav::CHEdge	typeref:typename:Node *	access:public
+nav::CHEdge::weight	include/core/contraction_hierarchies.h	/^        double weight;$/;"	m	struct:nav::CHEdge	typeref:typename:double	access:public
+nav::CHRouter	include/core/contraction_hierarchies.h	/^    class CHRouter {$/;"	c	namespace:nav
+nav::CHRouter::CHRouter	include/core/contraction_hierarchies.h	/^            explicit CHRouter(const RoadNetwork& network);$/;"	p	class:nav::CHRouter	access:public	signature:(const RoadNetwork & network)
+nav::CHRouter::CHRouter	src/core/contraction_hierarchies.cpp	/^    CHRouter::CHRouter(const RoadNetwork& network) : network_(network) {}$/;"	f	class:nav::CHRouter	signature:(const RoadNetwork & network)
+nav::CHRouter::Stats	include/core/contraction_hierarchies.h	/^            struct Stats {$/;"	s	class:nav::CHRouter	access:public
+nav::CHRouter::Stats::nodes_explored	include/core/contraction_hierarchies.h	/^                size_t nodes_explored = 0; \/\/探索节点数$/;"	m	struct:nav::CHRouter::Stats	typeref:typename:size_t	access:public
+nav::CHRouter::Stats::preprocess_time_ms	include/core/contraction_hierarchies.h	/^                double preprocess_time_ms = 0; \/\/预处理耗时$/;"	m	struct:nav::CHRouter::Stats	typeref:typename:double	access:public
+nav::CHRouter::Stats::query_time_ms	include/core/contraction_hierarchies.h	/^                double query_time_ms = 0; \/\/单词查询耗时$/;"	m	struct:nav::CHRouter::Stats	typeref:typename:double	access:public
+nav::CHRouter::ch_up_incoming	include/core/contraction_hierarchies.h	/^            std::unordered_map<NodeID, std::vector<CHEdge>> ch_up_incoming;$/;"	m	class:nav::CHRouter	typeref:typename:std::unordered_map<NodeID,std::vector<CHEdge>>	access:private
+nav::CHRouter::ch_up_outgoing	include/core/contraction_hierarchies.h	/^            std::unordered_map<NodeID, std::vector<CHEdge>> ch_up_outgoing;$/;"	m	class:nav::CHRouter	typeref:typename:std::unordered_map<NodeID,std::vector<CHEdge>>	access:private
+nav::CHRouter::computeEdgeDifference	include/core/contraction_hierarchies.h	/^            double computeEdgeDifference(Node* node);$/;"	p	class:nav::CHRouter	typeref:typename:double	access:private	signature:(Node * node)
+nav::CHRouter::computeEdgeDifference	src/core/contraction_hierarchies.cpp	/^    double CHRouter::computeEdgeDifference(Node* node) {$/;"	f	class:nav::CHRouter	typeref:typename:double	signature:(Node * node)
+nav::CHRouter::contractNode	include/core/contraction_hierarchies.h	/^            void contractNode(Node* node);$/;"	p	class:nav::CHRouter	typeref:typename:void	access:private	signature:(Node * node)
+nav::CHRouter::contractNode	src/core/contraction_hierarchies.cpp	/^    void CHRouter::contractNode(Node* node) {$/;"	f	class:nav::CHRouter	typeref:typename:void	signature:(Node * node)
+nav::CHRouter::findPath	include/core/contraction_hierarchies.h	/^            Path findPath(Node* start, Node* end);$/;"	p	class:nav::CHRouter	typeref:typename:Path	access:public	signature:(Node * start,Node * end)
+nav::CHRouter::findPath	src/core/contraction_hierarchies.cpp	/^    Path CHRouter::findPath(Node* start, Node* end) {$/;"	f	class:nav::CHRouter	typeref:typename:Path	signature:(Node * start,Node * end)
+nav::CHRouter::isReady	include/core/contraction_hierarchies.h	/^            bool isReady() const {return !node_level_.empty();}$/;"	f	class:nav::CHRouter	typeref:typename:bool	access:public	signature:() const
+nav::CHRouter::lastStats	include/core/contraction_hierarchies.h	/^            const Stats& lastStats() const {return last_stats_; }$/;"	f	class:nav::CHRouter	typeref:typename:const Stats &	access:public	signature:() const
+nav::CHRouter::last_stats_	include/core/contraction_hierarchies.h	/^            Stats last_stats_;$/;"	m	class:nav::CHRouter	typeref:typename:Stats	access:private
+nav::CHRouter::needShortcut	include/core/contraction_hierarchies.h	/^            bool needShortcut(Node* u, Node* v, Node* node, double via_dist);$/;"	p	class:nav::CHRouter	typeref:typename:bool	access:private	signature:(Node * u,Node * v,Node * node,double via_dist)
+nav::CHRouter::network_	include/core/contraction_hierarchies.h	/^            const RoadNetwork& network_;$/;"	m	class:nav::CHRouter	typeref:typename:const RoadNetwork &	access:private
+nav::CHRouter::node_level_	include/core/contraction_hierarchies.h	/^            std::unordered_map<NodeID, int> node_level_;$/;"	m	class:nav::CHRouter	typeref:typename:std::unordered_map<NodeID,int>	access:private
+nav::CHRouter::preprocess	include/core/contraction_hierarchies.h	/^            void preprocess();$/;"	p	class:nav::CHRouter	typeref:typename:void	access:public	signature:()
+nav::CHRouter::preprocess	src/core/contraction_hierarchies.cpp	/^    void CHRouter::preprocess() {$/;"	f	class:nav::CHRouter	typeref:typename:void	signature:()
+nav::CHRouter::witnessSearch	include/core/contraction_hierarchies.h	/^            double witnessSearch(Node* from, Node* to, double max_dist, int max_hops);$/;"	p	class:nav::CHRouter	typeref:typename:double	access:private	signature:(Node * from,Node * to,double max_dist,int max_hops)
+nav::CHRouter::witnessSearch	src/core/contraction_hierarchies.cpp	/^    double CHRouter::witnessSearch(Node* from, Node* to, double max_dist, int max_hops) {$/;"	f	class:nav::CHRouter	typeref:typename:double	signature:(Node * from,Node * to,double max_dist,int max_hops)
+nav::Coordinate	include/core/graph.h	/^	struct Coordinate {$/;"	s	namespace:nav
+nav::Coordinate::distanceTo	include/core/graph.h	/^		double distanceTo(const Coordinate& other) const;$/;"	p	struct:nav::Coordinate	typeref:typename:double	access:public	signature:(const Coordinate & other) const
+nav::Coordinate::distanceTo	src/core/graph.cpp	/^	double Coordinate::distanceTo(const Coordinate& other ) const {$/;"	f	class:nav::Coordinate	typeref:typename:double	signature:(const Coordinate & other) const
+nav::Coordinate::lat	include/core/graph.h	/^		double lat;\/\/纬度$/;"	m	struct:nav::Coordinate	typeref:typename:double	access:public
+nav::Coordinate::lon	include/core/graph.h	/^		double lon;\/\/经度$/;"	m	struct:nav::Coordinate	typeref:typename:double	access:public
+nav::DijkstraRouter	include/core/routing.h	/^    class DijkstraRouter {$/;"	c	namespace:nav
+nav::DijkstraRouter::DijkstraRouter	include/core/routing.h	/^            explicit DijkstraRouter(const RoadNetwork& network);$/;"	p	class:nav::DijkstraRouter	access:public	signature:(const RoadNetwork & network)
+nav::DijkstraRouter::DijkstraRouter	src/core/routing.cpp	/^    DijkstraRouter::DijkstraRouter(const RoadNetwork& network) : network_(network) {}$/;"	f	class:nav::DijkstraRouter	signature:(const RoadNetwork & network)
+nav::DijkstraRouter::Stats	include/core/routing.h	/^            struct Stats {$/;"	s	class:nav::DijkstraRouter	access:public
+nav::DijkstraRouter::Stats::compute_time_ms	include/core/routing.h	/^                double compute_time_ms = 0; \/\/计算耗时$/;"	m	struct:nav::DijkstraRouter::Stats	typeref:typename:double	access:public
+nav::DijkstraRouter::Stats::edges_relaxed	include/core/routing.h	/^                size_t edges_relaxed = 0; \/\/松弛了多少边$/;"	m	struct:nav::DijkstraRouter::Stats	typeref:typename:size_t	access:public
+nav::DijkstraRouter::Stats::nodes_explored	include/core/routing.h	/^                size_t nodes_explored = 0; \/\/访问了多少节点$/;"	m	struct:nav::DijkstraRouter::Stats	typeref:typename:size_t	access:public
+nav::DijkstraRouter::findShortestPath	include/core/routing.h	/^            Path findShortestPath(Node* start, Node* end);$/;"	p	class:nav::DijkstraRouter	typeref:typename:Path	access:public	signature:(Node * start,Node * end)
+nav::DijkstraRouter::findShortestPath	src/core/routing.cpp	/^    Path DijkstraRouter::findShortestPath(Node* start, Node* end) {$/;"	f	class:nav::DijkstraRouter	typeref:typename:Path	signature:(Node * start,Node * end)
+nav::DijkstraRouter::findShortestPathFast	include/core/routing.h	/^            Path findShortestPathFast(Node* start, Node* end);$/;"	p	class:nav::DijkstraRouter	typeref:typename:Path	access:public	signature:(Node * start,Node * end)
+nav::DijkstraRouter::findShortestPathFast	src/core/routing.cpp	/^    Path DijkstraRouter::findShortestPathFast(Node* start, Node* end) {$/;"	f	class:nav::DijkstraRouter	typeref:typename:Path	signature:(Node * start,Node * end)
+nav::DijkstraRouter::lastStats	include/core/routing.h	/^            const Stats& lastStats() const {return last_stats_; }$/;"	f	class:nav::DijkstraRouter	typeref:typename:const Stats &	access:public	signature:() const
+nav::DijkstraRouter::last_stats_	include/core/routing.h	/^            Stats last_stats_;$/;"	m	class:nav::DijkstraRouter	typeref:typename:Stats	access:private
+nav::DijkstraRouter::network_	include/core/routing.h	/^            const RoadNetwork& network_;$/;"	m	class:nav::DijkstraRouter	typeref:typename:const RoadNetwork &	access:private
+nav::Edge	include/core/graph.h	/^	struct Edge{$/;"	s	namespace:nav
+nav::Edge::from	include/core/graph.h	/^		Node* from;\/\/起点$/;"	m	struct:nav::Edge	typeref:typename:Node *	access:public
+nav::Edge::id	include/core/graph.h	/^		EdgeID id;$/;"	m	struct:nav::Edge	typeref:typename:EdgeID	access:public
+nav::Edge::length	include/core/graph.h	/^		double length;\/\/长度(m)$/;"	m	struct:nav::Edge	typeref:typename:double	access:public
+nav::Edge::oneway	include/core/graph.h	/^		bool oneway;\/\/是否单行线$/;"	m	struct:nav::Edge	typeref:typename:bool	access:public
+nav::Edge::speed_limit	include/core/graph.h	/^		double speed_limit;\/\/限速多少(km\/h)$/;"	m	struct:nav::Edge	typeref:typename:double	access:public
+nav::Edge::to	include/core/graph.h	/^		Node* to;\/\/终点$/;"	m	struct:nav::Edge	typeref:typename:Node *	access:public
+nav::Edge::travelTime	include/core/graph.h	/^		double travelTime() const {return length \/ (speed_limit \/ 3.6); }$/;"	f	struct:nav::Edge	typeref:typename:double	access:public	signature:() const
+nav::Edge::weight	include/core/graph.h	/^		double weight() const {return travelTime();}$/;"	f	struct:nav::Edge	typeref:typename:double	access:public	signature:() const
+nav::EdgeID	include/core/graph.h	/^	using EdgeID = uint64_t;$/;"	t	namespace:nav	typeref:typename:uint64_t
+nav::GridIndex	include/core/spatial_index.h	/^	class GridIndex {$/;"	c	namespace:nav
+nav::GridIndex::GridIndex	include/core/spatial_index.h	/^		explicit GridIndex(double cell_size = 0.001);$/;"	p	class:nav::GridIndex	access:public	signature:(double cell_size=0.001)
+nav::GridIndex::GridIndex	src/core/spatial_index.cpp	/^	GridIndex::GridIndex(double cell_size) : cell_size_(cell_size){}$/;"	f	class:nav::GridIndex	signature:(double cell_size)
+nav::GridIndex::build	include/core/spatial_index.h	/^		void build(const RoadNetwork& network);$/;"	p	class:nav::GridIndex	typeref:typename:void	access:public	signature:(const RoadNetwork & network)
+nav::GridIndex::build	src/core/spatial_index.cpp	/^	void GridIndex::build(const RoadNetwork& network) {$/;"	f	class:nav::GridIndex	typeref:typename:void	signature:(const RoadNetwork & network)
+nav::GridIndex::cell_size_	include/core/spatial_index.h	/^		double cell_size_;$/;"	m	class:nav::GridIndex	typeref:typename:double	access:private
+nav::GridIndex::getCell	include/core/spatial_index.h	/^		std::pair<int, int> getCell(double lat, double lon) const; $/;"	p	class:nav::GridIndex	typeref:typename:std::pair<int,int>	access:private	signature:(double lat,double lon) const
+nav::GridIndex::getCell	src/core/spatial_index.cpp	/^	std::pair<int, int> GridIndex::getCell(double lat, double lon) const {$/;"	f	class:nav::GridIndex	typeref:typename:std::pair<int,int>	signature:(double lat,double lon) const
+nav::GridIndex::grid_	include/core/spatial_index.h	/^		std::map<std::pair<int, int>, std::vector<Node*>> grid_;$/;"	m	class:nav::GridIndex	typeref:typename:std::map<std::pair<int,int>,std::vector<Node * >>	access:private
+nav::GridIndex::nearest	include/core/spatial_index.h	/^		std::vector<Node*> nearest(const Coordinate& coord, int k = 1 ) const;$/;"	p	class:nav::GridIndex	typeref:typename:std::vector<Node * >	access:public	signature:(const Coordinate & coord,int k=1) const
+nav::GridIndex::nearest	src/core/spatial_index.cpp	/^	std::vector<Node*> GridIndex::nearest(const Coordinate& coord, int k) const {$/;"	f	class:nav::GridIndex	typeref:typename:std::vector<Node * >	signature:(const Coordinate & coord,int k) const
+nav::GridIndex::rangeQuery	include/core/spatial_index.h	/^		std::vector<Node*> rangeQuery(double min_lat, double min_lon, double max_lat, double max_lon) /;"	p	class:nav::GridIndex	typeref:typename:std::vector<Node * >	access:public	signature:(double min_lat,double min_lon,double max_lat,double max_lon) const
+nav::GridIndex::rangeQuery	src/core/spatial_index.cpp	/^        std::vector<Node*> GridIndex::rangeQuery(double min_lat, double min_lon, double max_lat,/;"	f	class:nav::GridIndex	typeref:typename:std::vector<Node * >	signature:(double min_lat,double min_lon,double max_lat,double max_lon) const
+nav::MapLoader	include/core/map_loader.h	/^class MapLoader{$/;"	c	namespace:nav
+nav::MapLoader::Stats	include/core/map_loader.h	/^    struct Stats {$/;"	s	class:nav::MapLoader	access:public
+nav::MapLoader::Stats::edges_created	include/core/map_loader.h	/^        size_t edges_created = 0;$/;"	m	struct:nav::MapLoader::Stats	typeref:typename:size_t	access:public
+nav::MapLoader::Stats::load_time_ms	include/core/map_loader.h	/^        double load_time_ms = 0;$/;"	m	struct:nav::MapLoader::Stats	typeref:typename:double	access:public
+nav::MapLoader::Stats::nodes_parsed	include/core/map_loader.h	/^        size_t nodes_parsed = 0;$/;"	m	struct:nav::MapLoader::Stats	typeref:typename:size_t	access:public
+nav::MapLoader::Stats::ways_parsed	include/core/map_loader.h	/^        size_t ways_parsed = 0;$/;"	m	struct:nav::MapLoader::Stats	typeref:typename:size_t	access:public
+nav::MapLoader::getSpeedLimit	include/core/map_loader.h	/^    double getSpeedLimit(const std::string& highway_type) const;$/;"	p	class:nav::MapLoader	typeref:typename:double	access:private	signature:(const std::string & highway_type) const
+nav::MapLoader::getSpeedLimit	src/core/map_loader.cpp	/^    double MapLoader::getSpeedLimit(const std::string& type) const {$/;"	f	class:nav::MapLoader	typeref:typename:double	signature:(const std::string & type) const
+nav::MapLoader::isDrivableRoad	include/core/map_loader.h	/^    bool isDrivableRoad(const std::string& highway_type) const;$/;"	p	class:nav::MapLoader	typeref:typename:bool	access:private	signature:(const std::string & highway_type) const
+nav::MapLoader::isDrivableRoad	src/core/map_loader.cpp	/^    bool MapLoader::isDrivableRoad(const std::string& type) const {$/;"	f	class:nav::MapLoader	typeref:typename:bool	signature:(const std::string & type) const
+nav::MapLoader::loadFromOSM	include/core/map_loader.h	/^    bool loadFromOSM(const std::string& filename, RoadNetwork& network);$/;"	p	class:nav::MapLoader	typeref:typename:bool	access:public	signature:(const std::string & filename,RoadNetwork & network)
+nav::MapLoader::loadFromOSM	src/core/map_loader.cpp	/^    bool MapLoader:: loadFromOSM(const std::string& filename, RoadNetwork& network) {$/;"	f	class:nav::MapLoader	typeref:typename:bool	signature:(const std::string & filename,RoadNetwork & network)
+nav::MapLoader::next_edge_id_	include/core/map_loader.h	/^    static uint64_t next_edge_id_;    \/\/全局边ID计数器$/;"	m	class:nav::MapLoader	typeref:typename:uint64_t	access:private
+nav::MapLoader::next_edge_id_	src/core/map_loader.cpp	/^    uint64_t MapLoader::next_edge_id_ = 0;$/;"	m	class:nav::MapLoader	typeref:typename:uint64_t
+nav::MapLoader::stats	include/core/map_loader.h	/^    const Stats& stats() const { return stats_; }$/;"	f	class:nav::MapLoader	typeref:typename:const Stats &	access:public	signature:() const
+nav::MapLoader::stats_	include/core/map_loader.h	/^    Stats stats_;$/;"	m	class:nav::MapLoader	typeref:typename:Stats	access:private
+nav::Node	include/core/graph.h	/^	struct Node{$/;"	s	namespace:nav
+nav::Node::Node	include/core/graph.h	/^		Node(NodeID i,double la, double lo) : id(i), coord{la, lo} {}$/;"	f	struct:nav::Node	access:public	signature:(NodeID i,double la,double lo)
+nav::Node::coord	include/core/graph.h	/^		Coordinate coord;$/;"	m	struct:nav::Node	typeref:typename:Coordinate	access:public
+nav::Node::id	include/core/graph.h	/^		NodeID id;$/;"	m	struct:nav::Node	typeref:typename:NodeID	access:public
+nav::Node::incoming	include/core/graph.h	/^		std::vector<Edge*> incoming;\/\/入边$/;"	m	struct:nav::Node	typeref:typename:std::vector<Edge * >	access:public
+nav::Node::outgoing	include/core/graph.h	/^		std::vector<Edge*> outgoing;\/\/出边$/;"	m	struct:nav::Node	typeref:typename:std::vector<Edge * >	access:public
+nav::NodeID	include/core/graph.h	/^	using NodeID = uint64_t;$/;"	t	namespace:nav	typeref:typename:uint64_t
+nav::Path	include/core/routing.h	/^    struct Path {$/;"	s	namespace:nav
+nav::Path::found	include/core/routing.h	/^        bool found = false;               \/\/是否找到路径$/;"	m	struct:nav::Path	typeref:typename:bool	access:public
+nav::Path::hopCount	include/core/routing.h	/^        size_t hopCount() const { return nodes.empty() ? 0 : nodes.size() - 1;};$/;"	f	struct:nav::Path	typeref:typename:size_t	access:public	signature:() const
+nav::Path::nodes	include/core/routing.h	/^        std::vector<Node*> nodes;         \/\/经过的节点序列$/;"	m	struct:nav::Path	typeref:typename:std::vector<Node * >	access:public
+nav::Path::total_distance	include/core/routing.h	/^        double total_distance = 0;        \/\/总距离（米）$/;"	m	struct:nav::Path	typeref:typename:double	access:public
+nav::Path::total_time	include/core/routing.h	/^        double total_time = 0;            \/\/总时间（秒）$/;"	m	struct:nav::Path	typeref:typename:double	access:public
+nav::RoadNetwork	include/core/graph.h	/^	class RoadNetwork{$/;"	c	namespace:nav
+nav::RoadNetwork::RoadNetwork	include/core/graph.h	/^		RoadNetwork() = default;$/;"	p	class:nav::RoadNetwork	access:public	signature:()
+nav::RoadNetwork::RoadNetwork	include/core/graph.h	/^		RoadNetwork(const RoadNetwork&) = delete;$/;"	p	class:nav::RoadNetwork	access:public	signature:(const RoadNetwork &)
+nav::RoadNetwork::addEdge	include/core/graph.h	/^		Edge* addEdge(EdgeID id, NodeID from, NodeID to, double length, double speed, bool oneway);$/;"	p	class:nav::RoadNetwork	typeref:typename:Edge *	access:public	signature:(EdgeID id,NodeID from,NodeID to,double length,double speed,bool oneway)
+nav::RoadNetwork::addEdge	src/core/graph.cpp	/^	Edge* RoadNetwork::addEdge(EdgeID id, NodeID from_id, NodeID to_id, double length, double speed/;"	f	class:nav::RoadNetwork	typeref:typename:Edge *	signature:(EdgeID id,NodeID from_id,NodeID to_id,double length,double speed,bool oneway)
+nav::RoadNetwork::addNode	include/core/graph.h	/^		Node* addNode(NodeID id, double lat, double lon);$/;"	p	class:nav::RoadNetwork	typeref:typename:Node *	access:public	signature:(NodeID id,double lat,double lon)
+nav::RoadNetwork::addNode	src/core/graph.cpp	/^	Node* RoadNetwork::addNode(NodeID id, double lat, double lon){$/;"	f	class:nav::RoadNetwork	typeref:typename:Node *	signature:(NodeID id,double lat,double lon)
+nav::RoadNetwork::buildIndex	include/core/graph.h	/^                void buildIndex();$/;"	p	class:nav::RoadNetwork	typeref:typename:void	access:public	signature:()
+nav::RoadNetwork::buildIndex	src/core/graph.cpp	/^        void RoadNetwork::buildIndex() {$/;"	f	class:nav::RoadNetwork	typeref:typename:void	signature:()
+nav::RoadNetwork::edgeCount	include/core/graph.h	/^		size_t edgeCount() const { return edges_.size(); }$/;"	f	class:nav::RoadNetwork	typeref:typename:size_t	access:public	signature:() const
+nav::RoadNetwork::edges_	include/core/graph.h	/^		std::unordered_map<EdgeID, std::unique_ptr<Edge>> edges_;$/;"	m	class:nav::RoadNetwork	typeref:typename:std::unordered_map<EdgeID,std::unique_ptr<Edge>>	access:private
+nav::RoadNetwork::getNeighbors	include/core/graph.h	/^		std::vector<std::pair<Node*, double>> getNeighbors(Node* node) const;$/;"	p	class:nav::RoadNetwork	typeref:typename:std::vector<std::pair<Node *,double>>	access:public	signature:(Node * node) const
+nav::RoadNetwork::getNeighbors	src/core/graph.cpp	/^	std::vector<std::pair<Node*, double>> RoadNetwork::getNeighbors(Node* node) const{$/;"	f	class:nav::RoadNetwork	typeref:typename:std::vector<std::pair<Node *,double>>	signature:(Node * node) const
+nav::RoadNetwork::getNode	include/core/graph.h	/^		Node* getNode(NodeID id) const;$/;"	p	class:nav::RoadNetwork	typeref:typename:Node *	access:public	signature:(NodeID id) const
+nav::RoadNetwork::getNode	src/core/graph.cpp	/^	Node* RoadNetwork::getNode(NodeID id) const{$/;"	f	class:nav::RoadNetwork	typeref:typename:Node *	signature:(NodeID id) const
+nav::RoadNetwork::id_to_index_	include/core/graph.h	/^                std::unordered_map<NodeID, size_t> id_to_index_;$/;"	m	class:nav::RoadNetwork	typeref:typename:std::unordered_map<NodeID,size_t>	access:private
+nav::RoadNetwork::indexSize	include/core/graph.h	/^                size_t indexSize() const { return id_to_index_.size(); }$/;"	f	class:nav::RoadNetwork	typeref:typename:size_t	access:public	signature:() const
+nav::RoadNetwork::index_to_node_	include/core/graph.h	/^                std::vector<Node*> index_to_node_;$/;"	m	class:nav::RoadNetwork	typeref:typename:std::vector<Node * >	access:private
+nav::RoadNetwork::nodeByIndex	include/core/graph.h	/^                Node* nodeByIndex(size_t idx) const;$/;"	p	class:nav::RoadNetwork	typeref:typename:Node *	access:public	signature:(size_t idx) const
+nav::RoadNetwork::nodeByIndex	src/core/graph.cpp	/^        Node* RoadNetwork::nodeByIndex(size_t idx) const {$/;"	f	class:nav::RoadNetwork	typeref:typename:Node *	signature:(size_t idx) const
+nav::RoadNetwork::nodeCount	include/core/graph.h	/^		size_t nodeCount() const { return nodes_.size(); }$/;"	f	class:nav::RoadNetwork	typeref:typename:size_t	access:public	signature:() const
+nav::RoadNetwork::nodeIndex	include/core/graph.h	/^                size_t nodeIndex(NodeID id) const;$/;"	p	class:nav::RoadNetwork	typeref:typename:size_t	access:public	signature:(NodeID id) const
+nav::RoadNetwork::nodeIndex	src/core/graph.cpp	/^        size_t RoadNetwork::nodeIndex(NodeID id) const {$/;"	f	class:nav::RoadNetwork	typeref:typename:size_t	signature:(NodeID id) const
+nav::RoadNetwork::nodes	include/core/graph.h	/^		const std::unordered_map<NodeID, std::unique_ptr<Node>>& nodes() const;$/;"	p	class:nav::RoadNetwork	typeref:typename:const std::unordered_map<NodeID,std::unique_ptr<Node>> &	access:public	signature:() const
+nav::RoadNetwork::nodes	src/core/graph.cpp	/^	const std::unordered_map<NodeID, std::unique_ptr<Node>>& RoadNetwork::nodes() const{$/;"	f	class:nav::RoadNetwork	typeref:typename:const std::unordered_map<NodeID,std::unique_ptr<Node>> &	signature:() const
+nav::RoadNetwork::nodes_	include/core/graph.h	/^		std::unordered_map<NodeID, std::unique_ptr<Node>> nodes_;$/;"	m	class:nav::RoadNetwork	typeref:typename:std::unordered_map<NodeID,std::unique_ptr<Node>>	access:private
+nav::RoadNetwork::operator =	include/core/graph.h	/^		RoadNetwork& operator=(const RoadNetwork&) = delete;$/;"	p	class:nav::RoadNetwork	typeref:typename:RoadNetwork &	access:public	signature:(const RoadNetwork &)
+nav::RoadNetwork::~RoadNetwork	include/core/graph.h	/^		~RoadNetwork();$/;"	p	class:nav::RoadNetwork	access:public	signature:()
+nav::RoadNetwork::~RoadNetwork	src/core/graph.cpp	/^	RoadNetwork::~RoadNetwork(){$/;"	f	class:nav::RoadNetwork	signature:()
+nav_cli	CMakeLists.txt	/^add_executable(nav_cli src\/main_cli.cpp)$/;"	t
+nav_cli	build/Makefile	/^nav_cli: cmake_check_build_system$/;"	t
+nav_cli/fast	build/Makefile	/^nav_cli\/fast:$/;"	t
+nav_core	CMakeLists.txt	/^add_library(nav_core$/;"	t
+nav_core	build/Makefile	/^nav_core: cmake_check_build_system$/;"	t
+nav_core/fast	build/Makefile	/^nav_core\/fast:$/;"	t
+nearest	include/core/spatial_index.h	/^		std::vector<Node*> nearest(const Coordinate& coord, int k = 1 ) const;$/;"	p	class:nav::GridIndex	typeref:typename:std::vector<Node * >	access:public	signature:(const Coordinate & coord,int k=1) const
+nearest	src/core/spatial_index.cpp	/^	std::vector<Node*> GridIndex::nearest(const Coordinate& coord, int k) const {$/;"	f	class:nav::GridIndex	typeref:typename:std::vector<Node * >	signature:(const Coordinate & coord,int k) const
+needShortcut	include/core/contraction_hierarchies.h	/^            bool needShortcut(Node* u, Node* v, Node* node, double via_dist);$/;"	p	class:nav::CHRouter	typeref:typename:bool	access:private	signature:(Node * u,Node * v,Node * node,double via_dist)
+network	tests/test_routing.cpp	/^    RoadNetwork network;$/;"	m	class:RoutingTest	typeref:typename:RoadNetwork	file:	access:protected
+network_	include/core/contraction_hierarchies.h	/^            const RoadNetwork& network_;$/;"	m	class:nav::CHRouter	typeref:typename:const RoadNetwork &	access:private
+network_	include/core/routing.h	/^            const RoadNetwork& network_;$/;"	m	class:nav::AStarRouter	typeref:typename:const RoadNetwork &	access:private
+network_	include/core/routing.h	/^            const RoadNetwork& network_;$/;"	m	class:nav::DijkstraRouter	typeref:typename:const RoadNetwork &	access:private
+next_edge_id_	include/core/map_loader.h	/^    static uint64_t next_edge_id_;    \/\/全局边ID计数器$/;"	m	class:nav::MapLoader	typeref:typename:uint64_t	access:private
+next_edge_id_	src/core/map_loader.cpp	/^    uint64_t MapLoader::next_edge_id_ = 0;$/;"	m	class:nav::MapLoader	typeref:typename:uint64_t
+nodeByIndex	include/core/graph.h	/^                Node* nodeByIndex(size_t idx) const;$/;"	p	class:nav::RoadNetwork	typeref:typename:Node *	access:public	signature:(size_t idx) const
+nodeByIndex	src/core/graph.cpp	/^        Node* RoadNetwork::nodeByIndex(size_t idx) const {$/;"	f	class:nav::RoadNetwork	typeref:typename:Node *	signature:(size_t idx) const
+nodeCount	include/core/graph.h	/^		size_t nodeCount() const { return nodes_.size(); }$/;"	f	class:nav::RoadNetwork	typeref:typename:size_t	access:public	signature:() const
+nodeIndex	include/core/graph.h	/^                size_t nodeIndex(NodeID id) const;$/;"	p	class:nav::RoadNetwork	typeref:typename:size_t	access:public	signature:(NodeID id) const
+nodeIndex	src/core/graph.cpp	/^        size_t RoadNetwork::nodeIndex(NodeID id) const {$/;"	f	class:nav::RoadNetwork	typeref:typename:size_t	signature:(NodeID id) const
+node_level_	include/core/contraction_hierarchies.h	/^            std::unordered_map<NodeID, int> node_level_;$/;"	m	class:nav::CHRouter	typeref:typename:std::unordered_map<NodeID,int>	access:private
+nodes	include/core/graph.h	/^		const std::unordered_map<NodeID, std::unique_ptr<Node>>& nodes() const;$/;"	p	class:nav::RoadNetwork	typeref:typename:const std::unordered_map<NodeID,std::unique_ptr<Node>> &	access:public	signature:() const
+nodes	include/core/routing.h	/^        std::vector<Node*> nodes;         \/\/经过的节点序列$/;"	m	struct:nav::Path	typeref:typename:std::vector<Node * >	access:public
+nodes	src/core/graph.cpp	/^	const std::unordered_map<NodeID, std::unique_ptr<Node>>& RoadNetwork::nodes() const{$/;"	f	class:nav::RoadNetwork	typeref:typename:const std::unordered_map<NodeID,std::unique_ptr<Node>> &	signature:() const
+nodes_	include/core/graph.h	/^		std::unordered_map<NodeID, std::unique_ptr<Node>> nodes_;$/;"	m	class:nav::RoadNetwork	typeref:typename:std::unordered_map<NodeID,std::unique_ptr<Node>>	access:private
+nodes_explored	include/core/contraction_hierarchies.h	/^                size_t nodes_explored = 0; \/\/探索节点数$/;"	m	struct:nav::CHRouter::Stats	typeref:typename:size_t	access:public
+nodes_explored	include/core/routing.h	/^                size_t nodes_explored = 0; \/\/访问了多少节点$/;"	m	struct:nav::DijkstraRouter::Stats	typeref:typename:size_t	access:public
+nodes_parsed	include/core/map_loader.h	/^        size_t nodes_parsed = 0;$/;"	m	struct:nav::MapLoader::Stats	typeref:typename:size_t	access:public
+oneway	include/core/graph.h	/^		bool oneway;\/\/是否单行线$/;"	m	struct:nav::Edge	typeref:typename:bool	access:public
+operator =	include/core/graph.h	/^		RoadNetwork& operator=(const RoadNetwork&) = delete;$/;"	p	class:nav::RoadNetwork	typeref:typename:RoadNetwork &	access:public	signature:(const RoadNetwork &)
+outgoing	include/core/graph.h	/^		std::vector<Edge*> outgoing;\/\/出边$/;"	m	struct:nav::Node	typeref:typename:std::vector<Edge * >	access:public
+preinstall	build/Makefile	/^preinstall: all$/;"	t
+preinstall/fast	build/Makefile	/^preinstall\/fast:$/;"	t
+preprocess	include/core/contraction_hierarchies.h	/^            void preprocess();$/;"	p	class:nav::CHRouter	typeref:typename:void	access:public	signature:()
+preprocess	src/core/contraction_hierarchies.cpp	/^    void CHRouter::preprocess() {$/;"	f	class:nav::CHRouter	typeref:typename:void	signature:()
+preprocess_time_ms	include/core/contraction_hierarchies.h	/^                double preprocess_time_ms = 0; \/\/预处理耗时$/;"	m	struct:nav::CHRouter::Stats	typeref:typename:double	access:public
+printUsage	src/main_cli.cpp	/^void printUsage(const char* name) {$/;"	f	typeref:typename:void	signature:(const char * name)
+qnxnto	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v	typeref:typename:char const *
+query_time_ms	include/core/contraction_hierarchies.h	/^                double query_time_ms = 0; \/\/单词查询耗时$/;"	m	struct:nav::CHRouter::Stats	typeref:typename:double	access:public
+rangeQuery	include/core/spatial_index.h	/^		std::vector<Node*> rangeQuery(double min_lat, double min_lon, double max_lat, double max_lon) /;"	p	class:nav::GridIndex	typeref:typename:std::vector<Node * >	access:public	signature:(double min_lat,double min_lon,double max_lat,double max_lon) const
+rangeQuery	src/core/spatial_index.cpp	/^        std::vector<Node*> GridIndex::rangeQuery(double min_lat, double min_lon, double max_lat,/;"	f	class:nav::GridIndex	typeref:typename:std::vector<Node * >	signature:(double min_lat,double min_lon,double max_lat,double max_lon) const
+rebuild_cache	build/Makefile	/^rebuild_cache:$/;"	t
+rebuild_cache/fast	build/Makefile	/^rebuild_cache\/fast: rebuild_cache$/;"	t
+request	.vscode/launch.json	/^            "request": "launch",$/;"	s	object:configurations.0
+speed_limit	include/core/graph.h	/^		double speed_limit;\/\/限速多少(km\/h)$/;"	m	struct:nav::Edge	typeref:typename:double	access:public
+src/core/contraction_hierarchies.cpp.i	build/Makefile	/^src\/core\/contraction_hierarchies.cpp.i:$/;"	t
+src/core/contraction_hierarchies.cpp.o	build/Makefile	/^src\/core\/contraction_hierarchies.cpp.o:$/;"	t
+src/core/contraction_hierarchies.cpp.s	build/Makefile	/^src\/core\/contraction_hierarchies.cpp.s:$/;"	t
+src/core/contraction_hierarchies.i	build/Makefile	/^src\/core\/contraction_hierarchies.i: src\/core\/contraction_hierarchies.cpp.i$/;"	t
+src/core/contraction_hierarchies.o	build/Makefile	/^src\/core\/contraction_hierarchies.o: src\/core\/contraction_hierarchies.cpp.o$/;"	t
+src/core/contraction_hierarchies.s	build/Makefile	/^src\/core\/contraction_hierarchies.s: src\/core\/contraction_hierarchies.cpp.s$/;"	t
+src/core/graph.cpp.i	build/Makefile	/^src\/core\/graph.cpp.i:$/;"	t
+src/core/graph.cpp.o	build/Makefile	/^src\/core\/graph.cpp.o:$/;"	t
+src/core/graph.cpp.s	build/Makefile	/^src\/core\/graph.cpp.s:$/;"	t
+src/core/graph.i	build/Makefile	/^src\/core\/graph.i: src\/core\/graph.cpp.i$/;"	t
+src/core/graph.o	build/Makefile	/^src\/core\/graph.o: src\/core\/graph.cpp.o$/;"	t
+src/core/graph.s	build/Makefile	/^src\/core\/graph.s: src\/core\/graph.cpp.s$/;"	t
+src/core/map_loader.cpp.i	build/Makefile	/^src\/core\/map_loader.cpp.i:$/;"	t
+src/core/map_loader.cpp.o	build/Makefile	/^src\/core\/map_loader.cpp.o:$/;"	t
+src/core/map_loader.cpp.s	build/Makefile	/^src\/core\/map_loader.cpp.s:$/;"	t
+src/core/map_loader.i	build/Makefile	/^src\/core\/map_loader.i: src\/core\/map_loader.cpp.i$/;"	t
+src/core/map_loader.o	build/Makefile	/^src\/core\/map_loader.o: src\/core\/map_loader.cpp.o$/;"	t
+src/core/map_loader.s	build/Makefile	/^src\/core\/map_loader.s: src\/core\/map_loader.cpp.s$/;"	t
+src/core/routing.cpp.i	build/Makefile	/^src\/core\/routing.cpp.i:$/;"	t
+src/core/routing.cpp.o	build/Makefile	/^src\/core\/routing.cpp.o:$/;"	t
+src/core/routing.cpp.s	build/Makefile	/^src\/core\/routing.cpp.s:$/;"	t
+src/core/routing.i	build/Makefile	/^src\/core\/routing.i: src\/core\/routing.cpp.i$/;"	t
+src/core/routing.o	build/Makefile	/^src\/core\/routing.o: src\/core\/routing.cpp.o$/;"	t
+src/core/routing.s	build/Makefile	/^src\/core\/routing.s: src\/core\/routing.cpp.s$/;"	t
+src/core/spatial_index.cpp.i	build/Makefile	/^src\/core\/spatial_index.cpp.i:$/;"	t
+src/core/spatial_index.cpp.o	build/Makefile	/^src\/core\/spatial_index.cpp.o:$/;"	t
+src/core/spatial_index.cpp.s	build/Makefile	/^src\/core\/spatial_index.cpp.s:$/;"	t
+src/core/spatial_index.i	build/Makefile	/^src\/core\/spatial_index.i: src\/core\/spatial_index.cpp.i$/;"	t
+src/core/spatial_index.o	build/Makefile	/^src\/core\/spatial_index.o: src\/core\/spatial_index.cpp.o$/;"	t
+src/core/spatial_index.s	build/Makefile	/^src\/core\/spatial_index.s: src\/core\/spatial_index.cpp.s$/;"	t
+src/main_cli.cpp.i	build/Makefile	/^src\/main_cli.cpp.i:$/;"	t
+src/main_cli.cpp.o	build/Makefile	/^src\/main_cli.cpp.o:$/;"	t
+src/main_cli.cpp.s	build/Makefile	/^src\/main_cli.cpp.s:$/;"	t
+src/main_cli.i	build/Makefile	/^src\/main_cli.i: src\/main_cli.cpp.i$/;"	t
+src/main_cli.o	build/Makefile	/^src\/main_cli.o: src\/main_cli.cpp.o$/;"	t
+src/main_cli.s	build/Makefile	/^src\/main_cli.s: src\/main_cli.cpp.s$/;"	t
+stats	include/core/map_loader.h	/^    const Stats& stats() const { return stats_; }$/;"	f	class:nav::MapLoader	typeref:typename:const Stats &	access:public	signature:() const
+stats_	include/core/map_loader.h	/^    Stats stats_;$/;"	m	class:nav::MapLoader	typeref:typename:Stats	access:private
+test	build/Makefile	/^test:$/;"	t
+test/fast	build/Makefile	/^test\/fast: test$/;"	t
+test_graph	CMakeLists.txt	/^add_executable(test_graph tests\/test_graph.cpp)$/;"	t
+test_graph	build/Makefile	/^test_graph: cmake_check_build_system$/;"	t
+test_graph/fast	build/Makefile	/^test_graph\/fast:$/;"	t
+test_routing	CMakeLists.txt	/^add_executable(test_routing tests\/test_routing.cpp)$/;"	t
+test_routing	build/Makefile	/^test_routing: cmake_check_build_system$/;"	t
+test_routing/fast	build/Makefile	/^test_routing\/fast:$/;"	t
+tests/benchmark_routing.cpp.i	build/Makefile	/^tests\/benchmark_routing.cpp.i:$/;"	t
+tests/benchmark_routing.cpp.o	build/Makefile	/^tests\/benchmark_routing.cpp.o:$/;"	t
+tests/benchmark_routing.cpp.s	build/Makefile	/^tests\/benchmark_routing.cpp.s:$/;"	t
+tests/benchmark_routing.i	build/Makefile	/^tests\/benchmark_routing.i: tests\/benchmark_routing.cpp.i$/;"	t
+tests/benchmark_routing.o	build/Makefile	/^tests\/benchmark_routing.o: tests\/benchmark_routing.cpp.o$/;"	t
+tests/benchmark_routing.s	build/Makefile	/^tests\/benchmark_routing.s: tests\/benchmark_routing.cpp.s$/;"	t
+tests/test_graph.cpp.i	build/Makefile	/^tests\/test_graph.cpp.i:$/;"	t
+tests/test_graph.cpp.o	build/Makefile	/^tests\/test_graph.cpp.o:$/;"	t
+tests/test_graph.cpp.s	build/Makefile	/^tests\/test_graph.cpp.s:$/;"	t
+tests/test_graph.i	build/Makefile	/^tests\/test_graph.i: tests\/test_graph.cpp.i$/;"	t
+tests/test_graph.o	build/Makefile	/^tests\/test_graph.o: tests\/test_graph.cpp.o$/;"	t
+tests/test_graph.s	build/Makefile	/^tests\/test_graph.s: tests\/test_graph.cpp.s$/;"	t
+tests/test_routing.cpp.i	build/Makefile	/^tests\/test_routing.cpp.i:$/;"	t
+tests/test_routing.cpp.o	build/Makefile	/^tests\/test_routing.cpp.o:$/;"	t
+tests/test_routing.cpp.s	build/Makefile	/^tests\/test_routing.cpp.s:$/;"	t
+tests/test_routing.i	build/Makefile	/^tests\/test_routing.i: tests\/test_routing.cpp.i$/;"	t
+tests/test_routing.o	build/Makefile	/^tests\/test_routing.o: tests\/test_routing.cpp.o$/;"	t
+tests/test_routing.s	build/Makefile	/^tests\/test_routing.s: tests\/test_routing.cpp.s$/;"	t
+to	include/core/contraction_hierarchies.h	/^        Node* to;$/;"	m	struct:nav::CHEdge	typeref:typename:Node *	access:public
+to	include/core/graph.h	/^		Node* to;\/\/终点$/;"	m	struct:nav::Edge	typeref:typename:Node *	access:public
+total_distance	include/core/routing.h	/^        double total_distance = 0;        \/\/总距离（米）$/;"	m	struct:nav::Path	typeref:typename:double	access:public
+total_time	include/core/routing.h	/^        double total_time = 0;            \/\/总时间（秒）$/;"	m	struct:nav::Path	typeref:typename:double	access:public
+travelTime	include/core/graph.h	/^		double travelTime() const {return length \/ (speed_limit \/ 3.6); }$/;"	f	struct:nav::Edge	typeref:typename:double	access:public	signature:() const
+type	.vscode/launch.json	/^            "type": "chrome",$/;"	s	object:configurations.0
+url	.vscode/launch.json	/^            "url": "http:\/\/localhost:8080",$/;"	s	object:configurations.0
+ways_parsed	include/core/map_loader.h	/^        size_t ways_parsed = 0;$/;"	m	struct:nav::MapLoader::Stats	typeref:typename:size_t	access:public
+webRoot	.vscode/launch.json	/^            "webRoot": "${workspaceFolder}"$/;"	s	object:configurations.0
+weight	include/core/contraction_hierarchies.h	/^        double weight;$/;"	m	struct:nav::CHEdge	typeref:typename:double	access:public
+weight	include/core/graph.h	/^		double weight() const {return travelTime();}$/;"	f	struct:nav::Edge	typeref:typename:double	access:public	signature:() const
+witnessSearch	include/core/contraction_hierarchies.h	/^            double witnessSearch(Node* from, Node* to, double max_dist, int max_hops);$/;"	p	class:nav::CHRouter	typeref:typename:double	access:private	signature:(Node * from,Node * to,double max_dist,int max_hops)
+witnessSearch	src/core/contraction_hierarchies.cpp	/^    double CHRouter::witnessSearch(Node* from, Node* to, double max_dist, int max_hops) {$/;"	f	class:nav::CHRouter	typeref:typename:double	signature:(Node * from,Node * to,double max_dist,int max_hops)
+~RoadNetwork	include/core/graph.h	/^		~RoadNetwork();$/;"	p	class:nav::RoadNetwork	access:public	signature:()
+~RoadNetwork	src/core/graph.cpp	/^	RoadNetwork::~RoadNetwork(){$/;"	f	class:nav::RoadNetwork	signature:()

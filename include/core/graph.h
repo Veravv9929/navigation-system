@@ -73,14 +73,14 @@ namespace nav {
 		size_t edgeCount() const { return edges_.size(); }
 
 
-                //添加连续索引相关接口
-                //构建完成后，建立连续索引（0~n-1） 
-                void buildIndex();
+        //添加连续索引相关接口
+        //构建完成后，建立连续索引（0~n-1） 
+        void buildIndex();
 
-                //通过连续索引获取节点（算法内部使用）
-                Node* nodeByIndex(size_t idx) const;
-                size_t nodeIndex(NodeID id) const;
-                size_t indexSize() const { return id_to_index_.size(); }
+        //通过连续索引获取节点（算法内部使用）
+        Node* nodeByIndex(size_t idx) const;
+        size_t nodeIndex(NodeID id) const;
+        size_t indexSize() const { return id_to_index_.size(); }
 
 	private:
 		std::unordered_map<NodeID, std::unique_ptr<Node>> nodes_;
