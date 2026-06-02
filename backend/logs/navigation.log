@@ -1,0 +1,18 @@
+2026-06-03 07:17:15,718 - INFO - Starting Navigation API server...
+2026-06-03 07:17:15,719 - INFO - Engine path: /home/gloria/navigation-system/build/nav_engine
+2026-06-03 07:17:15,719 - INFO - Map file: /home/gloria/navigation-system/data/beijing_large.osm
+2026-06-03 07:17:20,282 - INFO - Engine ready: 387005 nodes, 709412 edges
+2026-06-03 07:17:45,169 - INFO - Route request: (39.96,116.3) -> (39.93,116.32), algo=dijkstra
+2026-06-03 07:17:49,807 - INFO - Route success: 75 hops, 0.622853ms
+2026-06-03 07:17:49,809 - INFO - POST /api/route - 200 - 4642.37ms
+2026-06-03 07:20:23,565 - INFO - Compare request: (39.96,116.3) -> (39.93,116.32)
+2026-06-03 07:20:35,478 - INFO - Compare complete: 3 algorithms succeeded
+2026-06-03 07:20:35,478 - INFO - POST /api/route/compare - 200 - 11914.20ms
+2026-06-03 07:21:14,070 - INFO - Route request: (0.0,0.0) -> (1.0,1.0), algo=dijkstra
+2026-06-03 07:21:18,644 - WARNING - Route error: no_nearby_road
+2026-06-03 07:21:18,645 - INFO - POST /api/route - 400 - 4576.53ms
+2026-06-03 07:22:10,990 - INFO - Route request: (0.0,0.0) -> (1.0,1.0), algo=dijkstra
+2026-06-03 07:22:15,417 - WARNING - Route error: no_nearby_road
+2026-06-03 07:22:15,417 - INFO - POST /api/route - 400 - 4429.12ms
+2026-06-03 07:22:25,693 - INFO - POST /api/route - 422 - 3.23ms
+2026-06-03 07:25:04,871 - INFO - Shutting down Navigation API server...

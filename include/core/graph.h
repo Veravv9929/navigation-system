@@ -55,6 +55,10 @@ namespace nav {
 		RoadNetwork(const RoadNetwork&) = delete;
 		RoadNetwork& operator=(const RoadNetwork&) = delete;
 
+        //显式定义移动
+        RoadNetwork(RoadNetwork&&) = default;
+        RoadNetwork& operator=(RoadNetwork&&) = default;
+
 		//构建接口
 		Node* addNode(NodeID id, double lat, double lon);
 		Edge* addEdge(EdgeID id, NodeID from, NodeID to, double length, double speed, bool oneway);
@@ -86,10 +90,10 @@ namespace nav {
 		std::unordered_map<NodeID, std::unique_ptr<Node>> nodes_;
 		std::unordered_map<EdgeID, std::unique_ptr<Edge>> edges_;
 
-                //NodeID -> 连续索引
-                std::unordered_map<NodeID, size_t> id_to_index_;
-                //连续索引->节点指针
-                std::vector<Node*> index_to_node_;
+        //NodeID -> 连续索引
+        std::unordered_map<NodeID, size_t> id_to_index_;
+        //连续索引->节点指针
+        std::vector<Node*> index_to_node_;
 	};
 }
 
