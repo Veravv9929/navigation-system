@@ -1,4 +1,6 @@
 from fastapi import FastAPI, HTTPException, Request
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from fastapi.responses import JSONResponse
 from models import (
     RouteRequest, RouteResponse, MatchRequest, MatchResponse,
@@ -33,6 +35,14 @@ app = FastAPI(
     version="1.0.0",
     description="Backend Service of Path Routing with C++ Engine"
 )
+
+#静态文件：前端页面
+app.mount("/static", StaticFiles(directory="../frontend"), name="static")
+
+@app.get("/")
+def serve_frontend():
+    """根路径返回前端页面"""
+    return FileResponse("../frontend/index.html")
 
 # ========== 请求日志中间件 ==========
 @app.middleware("http")
@@ -86,7 +96,7 @@ def startup():
 def shutdown():
     logger.info("Shutting down Navigation API server...")
 
-@app.get("/")
+@app.get("/api/info")
 def root():
     return {
         "message": "Navigation API Server",

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>导航系统 - 算法对比</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+        
+        #container { display: flex; height: 100vh; }
+        
+        /* 左侧地图 */
+        #map { flex: 1; height: 100vh; }
+        
+        /* 右侧面板 */
+        #panel { 
+            width: 380px; 
+            background: #f5f5f5; 
+            padding: 20px; 
+            overflow-y: auto;
+            border-left: 1px solid #ddd;
+        }
+        
+        h1 { font-size: 20px; margin-bottom: 20px; color: #333; }
+        h2 { font-size: 16px; margin: 15px 0 10px; color: #555; }
+        
+        .section { 
+            background: white; 
+            padding: 15px; 
+            border-radius: 8px; 
+            margin-bottom: 15px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        label { display: block; margin-bottom: 5px; font-size: 14px; color: #666; }
+        
+        select, input, button {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: 500;
+        }
+        button:hover { background: #0056b3; }
+        button:disabled { background: #ccc; cursor: not-allowed; }
+        
+        .coord-display {
+            font-size: 12px;
+            color: #888;
+            margin-top: 5px;
+        }
+        
+        /* 算法对比表格 */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+        th { color: #666; font-weight: 500; }
+        .best { color: #28a745; font-weight: bold; }
+        
+        /* 统计卡片 */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+        .stat-card {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #007bff;
+        }
+        .stat-label {
+            font-size: 11px;
+            color: #888;
+            margin-top: 4px;
+        }
+        
+        /* 状态提示 */
+        .status {
+            padding: 10px;
+            border-radius: 4px;
+            font-size: 13px;
+            margin-bottom: 10px;
+        }
+        .status.loading { background: #fff3cd; color: #856404; }
+        .status.success { background: #d4edda; color: #155724; }
+        .status.error { background: #f8d7da; color: #721c24; }
+        
+        /* 路径指引 */
+        .instruction {
+            padding: 8px;
+            border-left: 3px solid #007bff;
+            margin-bottom: 8px;
+            background: #f8f9fa;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="map"></div>
+        
+        <div id="panel">
+            <h1>🧭 导航系统 - 算法对比</h1>
+            
+            <div class="section">
+                <h2>起终点设置</h2>
+                <label>起点</label>
+                <div id="start-coord" class="coord-display">点击地图选择起点</div>
+                
+                <label>终点</label>
+                <div id="end-coord" class="coord-display">点击地图选择终点</div>
+                
+                <button onclick="clearPoints()">清除选择</button>
+            </div>
+            
+            <div class="section">
+                <h2>算法选择</h2>
+                <label>路径算法</label>
+                <select id="algorithm">
+                    <option value="auto">自动选择 (Auto)</option>
+                    <option value="dijkstra">Dijkstra 基础版</option>
+                    <option value="dijkstra_fast">Dijkstra 优化版</option>
+                    <option value="astar">A* 启发式</option>
+                </select>
+                
+                <label>出行模式</label>
+                <select id="mode">
+                    <option value="driving">驾车</option>
+                    <option value="walking">步行</option>
+                    <option value="cycling">骑行</option>
+                </select>
+                
+                <button id="calc-btn" onclick="calculateRoute()">计算路径</button>
+                <button onclick="compareAll()">三种算法对比</button>
+            </div>
+            
+            <div id="status"></div>
+            
+            <div class="section" id="result-section" style="display:none;">
+                <h2>当前路径结果</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value" id="res-time">-</div>
+                        <div class="stat-label">计算耗时 (ms)</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="res-dist">-</div>
+                        <div class="stat-label">距离 (km)</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="res-dur">-</div>
+                        <div class="stat-label">预计时间 (min)</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="res-hops">-</div>
+                        <div class="stat-label">路径跳数</div>
+                    </div>
+                </div>
+                <div class="coord-display" style="margin-top:10px;">
+                    算法: <span id="res-algo">-</span> | 
+                    探索节点: <span id="res-nodes">-</span> | 
+                    松弛边: <span id="res-edges">-</span>
+                </div>
+            </div>
+            
+            <div class="section" id="compare-section" style="display:none;">
+                <h2>算法对比</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>算法</th>
+                            <th>耗时(ms)</th>
+                            <th>探索节点</th>
+                            <th>松弛边</th>
+                        </tr>
+                    </thead>
+                    <tbody id="compare-table"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        // ==================== 配置 ====================
+        const API_BASE = 'http://localhost:8000';
+        let map, startMarker, endMarker, routeLine;
+        let startPoint = null, endPoint = null;
+        let selectingStart = true;
+
+        // ==================== 初始化地图 ====================
+        function initMap() {
+            // 北京中心
+            map = L.map('map').setView([39.9042, 116.4074], 12);
+            
+            // OpenStreetMap 瓦片
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap contributors',
+                maxZoom: 19
+            }).addTo(map);
+            
+            // 点击事件
+            map.on('click', function(e) {
+                const lat = e.latlng.lat.toFixed(6);
+                const lng = e.latlng.lng.toFixed(6);
+                
+                if (selectingStart || !startPoint) {
+                    setStartPoint(lat, lng);
+                    selectingStart = false;
+                } else if (!endPoint) {
+                    setEndPoint(lat, lng);
+                } else {
+                    // 两点都选好了，重新选起点
+                    setStartPoint(lat, lng);
+                    endPoint = null;
+                    if (endMarker) map.removeLayer(endMarker);
+                    document.getElementById('end-coord').textContent = '点击地图选择终点';
+                }
+            });
+        }
+
+        function setStartPoint(lat, lng) {
+            startPoint = {lat: parseFloat(lat), lon: parseFloat(lng)};
+            if (startMarker) map.removeLayer(startMarker);
+            startMarker = L.marker([lat, lng], {
+                icon: L.divIcon({
+                    className: 'start-marker',
+                    html: '<div style="background:#28a745;color:white;padding:4px 8px;border-radius:4px;font-size:12px;">起</div>',
+                    iconSize: [30, 20],
+                    iconAnchor: [15, 10]
+                })
+            }).addTo(map);
+            document.getElementById('start-coord').textContent = `${lat}, ${lng}`;
+        }
+
+        function setEndPoint(lat, lng) {
+            endPoint = {lat: parseFloat(lat), lon: parseFloat(lng)};
+            if (endMarker) map.removeLayer(endMarker);
+            endMarker = L.marker([lat, lng], {
+                icon: L.divIcon({
+                    className: 'end-marker',
+                    html: '<div style="background:#dc3545;color:white;padding:4px 8px;border-radius:4px;font-size:12px;">终</div>',
+                    iconSize: [30, 20],
+                    iconAnchor: [15, 10]
+                })
+            }).addTo(map);
+            document.getElementById('end-coord').textContent = `${lat}, ${lng}`;
+        }
+
+        function clearPoints() {
+            startPoint = null;
+            endPoint = null;
+            if (startMarker) map.removeLayer(startMarker);
+            if (endMarker) map.removeLayer(endMarker);
+            if (routeLine) map.removeLayer(routeLine);
+            document.getElementById('start-coord').textContent = '点击地图选择起点';
+            document.getElementById('end-coord').textContent = '点击地图选择终点';
+            document.getElementById('result-section').style.display = 'none';
+            document.getElementById('compare-section').style.display = 'none';
+        }
+
+        // ==================== API 调用 ====================
+        async function callAPI(endpoint, body) {
+            const response = await fetch(`${API_BASE}${endpoint}`, {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(body)
+            });
+            if (!response.ok) {
+                const err = await response.json();
+                throw new Error(err.detail || err.error || 'API Error');
+            }
+            return response.json();
+        }
+
+        function showStatus(msg, type) {
+            const el = document.getElementById('status');
+            el.className = `status ${type}`;
+            el.textContent = msg;
+            el.style.display = 'block';
+        }
+
+        function hideStatus() {
+            document.getElementById('status').style.display = 'none';
+        }
+
+        // ==================== 计算路径 ====================
+        async function calculateRoute() {
+            if (!startPoint || !endPoint) {
+                showStatus('请先选择起点和终点', 'error');
+                return;
+            }
+            
+            const algorithm = document.getElementById('algorithm').value;
+            const mode = document.getElementById('mode').value;
+            
+            showStatus('计算中...', 'loading');
+            document.getElementById('calc-btn').disabled = true;
+            
+            try {
+                const result = await callAPI('/api/route', {
+                    start: startPoint,
+                    end: endPoint,
+                    algorithm: algorithm,
+                    mode: mode
+                });
+                
+                displayResult(result);
+                drawRoute(result.path);
+                showStatus('路径计算完成！', 'success');
+                
+            } catch (err) {
+                showStatus('错误: ' + err.message, 'error');
+                console.error(err);
+            } finally {
+                document.getElementById('calc-btn').disabled = false;
+            }
+        }
+
+        function displayResult(data) {
+            document.getElementById('result-section').style.display = 'block';
+            document.getElementById('res-time').textContent = data.compute_time_ms.toFixed(1);
+            document.getElementById('res-dist').textContent = (data.distance / 1000).toFixed(2);
+            document.getElementById('res-dur').textContent = (data.duration / 60).toFixed(1);
+            document.getElementById('res-hops').textContent = data.hop_count;
+            document.getElementById('res-algo').textContent = data.algorithm_used;
+            document.getElementById('res-nodes').textContent = data.nodes_explored;
+            document.getElementById('res-edges').textContent = data.edges_relaxed;
+        }
+
+        function drawRoute(path) {
+            if (routeLine) map.removeLayer(routeLine);
+            if (!path || path.length < 2) return;
+            
+            const latlngs = path.map(p => [p.lat, p.lon]);
+            routeLine = L.polyline(latlngs, {
+                color: '#007bff',
+                weight: 4,
+                opacity: 0.8
+            }).addTo(map);
+            
+            map.fitBounds(routeLine.getBounds(), {padding: [50, 50]});
+        }
+
+        // ==================== 三种算法对比 ====================
+        async function compareAll() {
+            if (!startPoint || !endPoint) {
+                showStatus('请先选择起点和终点', 'error');
+                return;
+            }
+            
+            showStatus('正在对比三种算法...', 'loading');
+            
+            try {
+                const result = await callAPI('/api/route/compare', {
+                    start: startPoint,
+                    end: endPoint,
+                    mode: document.getElementById('mode').value
+                });
+                
+                displayComparison(result.comparisons);
+                showStatus('对比完成！', 'success');
+                
+            } catch (err) {
+                showStatus('对比失败: ' + err.message, 'error');
+            }
+        }
+
+        function displayComparison(comparisons) {
+            document.getElementById('compare-section').style.display = 'block';
+            const tbody = document.getElementById('compare-table');
+            tbody.innerHTML = '';
+            
+            // 找最小值标记最优
+            const minTime = Math.min(...comparisons.filter(c => c.status === 'ok').map(c => c.compute_time_ms));
+            const minNodes = Math.min(...comparisons.filter(c => c.status === 'ok').map(c => c.nodes_explored));
+            
+            comparisons.forEach(c => {
+                const tr = document.createElement('tr');
+                const timeClass = c.compute_time_ms === minTime ? 'best' : '';
+                const nodeClass = c.nodes_explored === minNodes ? 'best' : '';
+                
+                tr.innerHTML = `
+                    <td><strong>${c.algorithm}</strong></td>
+                    <td class="${timeClass}">${c.compute_time_ms.toFixed(1)}</td>
+                    <td class="${nodeClass}">${c.nodes_explored}</td>
+                    <td>${c.edges_relaxed}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        // ==================== 启动 ====================
+        initMap();
+    </script>
+</body>
+</html>
