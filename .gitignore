@@ -13,3 +13,4 @@ build/
 # 数据文件（如果很大）
 data/*.osm.pbf
 data/*.osm
+server/echo_server
