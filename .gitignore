@@ -14,3 +14,8 @@ build/
 data/*.osm.pbf
 data/*.osm
 server/echo_server
+venv/
+cscope*
+tags
+build/
+__pycache__/
